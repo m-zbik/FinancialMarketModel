@@ -1,0 +1,17 @@
+This is the massage form the original mason. The file was in 
+the jar folder. 
+****Original massage*****
+This directory is where MASON will build the mason.jar file.
+Do NOT put other jar files in here, because if you run 'make clean'
+on the Makefile, MASON will delete all jar files located here.
+If you have libraries on which MASON relies (such as jmf.jar or
+itext.jar), place them in your CLASSPATH in an appropriate location,
+or (if you use the start scripts in MASON) alternatively in
+the mason/ directory directly.
+*****
+
+All information (like license etc.) about mason can be found 
+in the jar file mason18ModifiedByMzbik.jar
+All modifications were made for Financial Market Model project.
+All information about Financial Market Model project can be found
+on the github: @m-zbik

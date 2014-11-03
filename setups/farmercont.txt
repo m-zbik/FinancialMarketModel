@@ -1,0 +1,2 @@
+FCImpatientPlayer,800
+FarmerPatientPlayer,900

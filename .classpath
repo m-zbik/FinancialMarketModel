@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="jar mason18ModifiedByMzbik/mason18ModifiedByMzbik.jar"/>
+	<classpathentry kind="lib" path="lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="lib/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="lib/itext-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.21.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.17.jar"/>
+	<classpathentry kind="lib" path="lib/joal-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/joal.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-all.jar"/>
+	<classpathentry kind="lib" path="lib/portfolio.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Java3D/1.5.1/lib/ext/j3dcore.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Java3D/1.5.1/lib/ext/j3dutils.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Java3D/1.5.1/lib/ext/vecmath.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/JMF2.1.1e/lib/customizer.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/JMF2.1.1e/lib/jmf.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/JMF2.1.1e/lib/mediaplayer.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/JMF2.1.1e/lib/multiplayer.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/JMF2.1.1e/lib/sound.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

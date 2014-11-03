@@ -1,0 +1,2 @@
+FarmerImpatientPlayer,800
+FarmerPatientPlayer,800
