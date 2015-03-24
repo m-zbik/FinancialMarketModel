@@ -1,0 +1,2340 @@
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#01ClassDiagramFMM.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node196mtp0dox94553 .
+
+_:node196mtp0dox94553 a atxa-core:node ;
+	atxa-core:model atxa-jdt-wkspc:model ;
+	atxa-core:posX "1645" ;
+	atxa-core:posY "286" .
+
+atxa-jdt-wkspc:model atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel> .
+
+_:node196mtp0dox94553 atxa-core:contains _:node196mtp0dox94554 .
+
+_:node196mtp0dox94554 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel> ;
+	atxa-core:posX "1651" ;
+	atxa-core:posY "311" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.agentList> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.FinancialModel(long,)> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.main(String[],)> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.myCreator> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.myMarket> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.myReporter> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.optionsMap> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.parameterMap> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.runID> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.serialVersionUID> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.start()> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.wrapperActive> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.doLoop(Class,String[],)> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1> .
+
+_:node196mtp0dox8 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94554 ;
+	rdf:object _:node196mtp0dox94555 ;
+	atxa-core:bendpoint _:node196mtp0dox107045 .
+
+_:node196mtp0dox107045 atxa-core:bpLocation "1756,501" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox8 atxa-core:bendpoint _:node196mtp0dox107046 .
+
+_:node196mtp0dox107046 atxa-core:bpLocation "331,501" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94558 .
+
+_:node196mtp0dox94558 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.agentList> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "329" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94559 .
+
+_:node196mtp0dox94559 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.FinancialModel(long,)> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "473" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94560 .
+
+_:node196mtp0dox94560 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.main(String[],)> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "489" .
+
+_:node196mtp0dox27967 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94560 ;
+	rdf:object _:node196mtp0dox94561 .
+
+_:node196mtp0dox28083 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94560 ;
+	rdf:object _:node196mtp0dox94562 .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94563 .
+
+_:node196mtp0dox94563 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.myCreator> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "345" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94564 .
+
+_:node196mtp0dox94564 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.myMarket> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "361" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94565 .
+
+_:node196mtp0dox94565 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.myReporter> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "377" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94566 .
+
+_:node196mtp0dox94566 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.optionsMap> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "393" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94567 .
+
+_:node196mtp0dox94567 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.parameterMap> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "409" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94568 .
+
+_:node196mtp0dox94568 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.runID> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "425" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94569 .
+
+_:node196mtp0dox94569 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.serialVersionUID> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "441" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94570 .
+
+_:node196mtp0dox94570 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.start()> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "505" .
+
+_:node196mtp0dox36081 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94570 ;
+	rdf:object _:node196mtp0dox94571 .
+
+_:node196mtp0dox48121 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94570 ;
+	rdf:object _:node196mtp0dox94572 .
+
+_:node196mtp0dox93566 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94570 ;
+	rdf:object _:node196mtp0dox94573 ;
+	atxa-core:bendpoint _:node196mtp0dox94574 .
+
+_:node196mtp0dox94574 atxa-core:bpLocation "1047,305" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox93566 atxa-core:bendpoint _:node196mtp0dox94575 .
+
+_:node196mtp0dox94575 atxa-core:bpLocation "1047,334" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox105058 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94570 ;
+	rdf:object _:node196mtp0dox107047 .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94576 .
+
+_:node196mtp0dox94576 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.wrapperActive> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "457" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94561 .
+
+_:node196mtp0dox94561 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel.doLoop(Class,String[],)> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "521" .
+
+_:node196mtp0dox94554 atxa-core:contains _:node196mtp0dox94577 .
+
+_:node196mtp0dox94577 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1> ;
+	atxa-core:posX "1652" ;
+	atxa-core:posY "537" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1.1(FinancialModel,)> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1.step(SimState,)> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1.this$0> , <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1.serialVersionUID> .
+
+_:node196mtp0dox61 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94577 ;
+	rdf:object _:node196mtp0dox94578 ;
+	atxa-core:bendpoint _:node196mtp0dox107048 .
+
+_:node196mtp0dox107048 atxa-core:bpLocation "1754,593" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox61 atxa-core:bendpoint _:node196mtp0dox107049 .
+
+_:node196mtp0dox107049 atxa-core:bpLocation "720,593" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94577 atxa-core:contains _:node196mtp0dox94573 .
+
+_:node196mtp0dox94573 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1.1(FinancialModel,)> ;
+	atxa-core:posX "1653" ;
+	atxa-core:posY "587" .
+
+_:node196mtp0dox94577 atxa-core:contains _:node196mtp0dox94581 .
+
+_:node196mtp0dox94581 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1.step(SimState,)> ;
+	atxa-core:posX "1653" ;
+	atxa-core:posY "603" .
+
+_:node196mtp0dox93322 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94581 ;
+	rdf:object _:node196mtp0dox94582 .
+
+_:node196mtp0dox93403 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94581 ;
+	rdf:object _:node196mtp0dox94583 .
+
+_:node196mtp0dox94577 atxa-core:contains _:node196mtp0dox94584 .
+
+_:node196mtp0dox94584 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1.this$0> ;
+	atxa-core:posX "1653" ;
+	atxa-core:posY "555" .
+
+_:node196mtp0dox94577 atxa-core:contains _:node196mtp0dox94585 .
+
+_:node196mtp0dox94585 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model$FinancialModel$1.serialVersionUID> ;
+	atxa-core:posX "1653" ;
+	atxa-core:posY "571" .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94586 .
+
+_:node196mtp0dox94586 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine> ;
+	atxa-core:posX "213" ;
+	atxa-core:posY "94" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#sim.engine> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$SimState> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Steppable> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule> .
+
+_:node196mtp0dox94586 atxa-core:contains _:node196mtp0dox94555 .
+
+_:node196mtp0dox94555 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$SimState> ;
+	atxa-core:posX "219" ;
+	atxa-core:posY "414" ;
+	atxa-core:color "f2;;77;;77" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#sim.engine$SimState> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$SimState.finish()> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$SimState.SimState(long,)> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$SimState.SimState(MersenneTwisterFast,)> .
+
+_:node196mtp0dox369 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94555 ;
+	rdf:object _:node196mtp0dox94587 ;
+	atxa-core:bendpoint _:node196mtp0dox107050 .
+
+_:node196mtp0dox107050 atxa-core:bpLocation "331,576" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox369 atxa-core:bendpoint _:node196mtp0dox107051 .
+
+_:node196mtp0dox107051 atxa-core:bpLocation "-46,576" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94555 atxa-core:contains _:node196mtp0dox94583 .
+
+_:node196mtp0dox94583 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$SimState.finish()> ;
+	atxa-core:posX "220" ;
+	atxa-core:posY "432" .
+
+_:node196mtp0dox94555 atxa-core:contains _:node196mtp0dox107052 .
+
+_:node196mtp0dox107052 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$SimState.SimState(long,)> ;
+	atxa-core:posX "220" ;
+	atxa-core:posY "448" .
+
+_:node196mtp0dox100144 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107052 ;
+	rdf:object _:node196mtp0dox107053 .
+
+_:node196mtp0dox94555 atxa-core:contains _:node196mtp0dox107054 .
+
+_:node196mtp0dox107054 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$SimState.SimState(MersenneTwisterFast,)> ;
+	atxa-core:posX "220" ;
+	atxa-core:posY "464" .
+
+_:node196mtp0dox100323 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107054 ;
+	rdf:object _:node196mtp0dox107053 .
+
+_:node196mtp0dox94586 atxa-core:contains _:node196mtp0dox94578 .
+
+_:node196mtp0dox94578 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Steppable> ;
+	atxa-core:posX "649" ;
+	atxa-core:posY "538" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Steppable> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Steppable.step(SimState,)> .
+
+_:node196mtp0dox370 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94578 ;
+	rdf:object _:node196mtp0dox94587 ;
+	atxa-core:bendpoint _:node196mtp0dox107055 .
+
+_:node196mtp0dox107055 atxa-core:bpLocation "720,576" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox370 atxa-core:bendpoint _:node196mtp0dox107056 .
+
+_:node196mtp0dox107056 atxa-core:bpLocation "-46,576" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94578 atxa-core:contains _:node196mtp0dox107057 .
+
+_:node196mtp0dox107057 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Steppable.step(SimState,)> ;
+	atxa-core:posX "650" ;
+	atxa-core:posY "556" .
+
+_:node196mtp0dox94586 atxa-core:contains _:node196mtp0dox94590 .
+
+_:node196mtp0dox94590 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule> ;
+	atxa-core:posX "360" ;
+	atxa-core:posY "119" ;
+	atxa-core:color "f2;;77;;77" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.step(SimState,)> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.getTime()> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.Schedule()> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.createHeap()> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.EPOCH> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.EPOCH_PLUS_EPSILON> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.AFTER_SIMULATION> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.BEFORE_SIMULATION> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.MAXIMUM_INTEGER> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.scheduleRepeating(Steppable,int,double,)> , <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.scheduleRepeating(double,int,Steppable,double,)> .
+
+_:node196mtp0dox99657 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94590 ;
+	rdf:object _:node196mtp0dox94587 ;
+	atxa-core:bendpoint _:node196mtp0dox107058 .
+
+_:node196mtp0dox107058 atxa-core:bpLocation "554,576" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox99657 atxa-core:bendpoint _:node196mtp0dox107059 .
+
+_:node196mtp0dox107059 atxa-core:bpLocation "-46,576" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox94591 .
+
+_:node196mtp0dox94591 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.step(SimState,)> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "217" .
+
+_:node196mtp0dox98008 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94591 ;
+	rdf:object _:node196mtp0dox107057 .
+
+_:node196mtp0dox98180 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94591 ;
+	rdf:object _:node196mtp0dox107060 .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox94592 .
+
+_:node196mtp0dox94592 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.getTime()> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "233" .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox107053 .
+
+_:node196mtp0dox107053 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.Schedule()> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "249" .
+
+_:node196mtp0dox100590 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107053 ;
+	rdf:object _:node196mtp0dox107061 .
+
+_:node196mtp0dox100857 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107053 ;
+	rdf:object _:node196mtp0dox107062 .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox107062 .
+
+_:node196mtp0dox107062 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.createHeap()> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "265" .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox107063 .
+
+_:node196mtp0dox107063 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.EPOCH> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "137" .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox107064 .
+
+_:node196mtp0dox107064 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.EPOCH_PLUS_EPSILON> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "153" .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox107065 .
+
+_:node196mtp0dox107065 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.AFTER_SIMULATION> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "169" .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox107066 .
+
+_:node196mtp0dox107066 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.BEFORE_SIMULATION> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "185" .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox107067 .
+
+_:node196mtp0dox107067 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.MAXIMUM_INTEGER> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "201" .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox107047 .
+
+_:node196mtp0dox107047 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.scheduleRepeating(Steppable,int,double,)> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "281" .
+
+_:node196mtp0dox105147 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107047 ;
+	rdf:object _:node196mtp0dox107068 .
+
+_:node196mtp0dox94590 atxa-core:contains _:node196mtp0dox107068 .
+
+_:node196mtp0dox107068 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.engine$Schedule.scheduleRepeating(double,int,Steppable,double,)> ;
+	atxa-core:posX "361" ;
+	atxa-core:posY "297" .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94595 .
+
+_:node196mtp0dox94595 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.io> ;
+	atxa-core:posX "-146" ;
+	atxa-core:posY "499" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#java.io> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#java.io$BufferedWriter> , <http://www.architexa.com/rdf/jdt-wkspc#java.io$Serializable> .
+
+_:node196mtp0dox94595 atxa-core:contains _:node196mtp0dox94596 .
+
+_:node196mtp0dox94596 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.io$BufferedWriter> ;
+	atxa-core:posX "-140" ;
+	atxa-core:posY "605" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#java.io$BufferedWriter> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#java.io$BufferedWriter.BufferedWriter(Writer,)> .
+
+_:node196mtp0dox94596 atxa-core:contains _:node196mtp0dox94597 .
+
+_:node196mtp0dox94597 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.io$BufferedWriter.BufferedWriter(Writer,)> ;
+	atxa-core:posX "-139" ;
+	atxa-core:posY "623" .
+
+_:node196mtp0dox94595 atxa-core:contains _:node196mtp0dox94587 .
+
+_:node196mtp0dox94587 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.io$Serializable> ;
+	atxa-core:posX "-97" ;
+	atxa-core:posY "524" ;
+	atxa-core:color "f2;;77;;77" .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94598 .
+
+_:node196mtp0dox94598 a atxa-core:node ;
+	atxa-core:model atxa-jdt-wkspc:experiments ;
+	atxa-core:posX "1052" ;
+	atxa-core:posY "-135" .
+
+atxa-jdt-wkspc:experiments atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#experiments$RunsWrapper> .
+
+_:node196mtp0dox94598 atxa-core:contains _:node196mtp0dox94599 .
+
+_:node196mtp0dox94599 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#experiments$RunsWrapper> ;
+	atxa-core:posX "1058" ;
+	atxa-core:posY "-110" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#experiments$RunsWrapper> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#experiments$RunsWrapper.main(String[],)> , <http://www.architexa.com/rdf/jdt-wkspc#experiments$RunsWrapper.RunsWrapper()> .
+
+_:node196mtp0dox94599 atxa-core:contains _:node196mtp0dox94600 .
+
+_:node196mtp0dox94600 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#experiments$RunsWrapper.main(String[],)> ;
+	atxa-core:posX "1059" ;
+	atxa-core:posY "-92" .
+
+_:node196mtp0dox630 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94600 ;
+	rdf:object _:node196mtp0dox94559 .
+
+_:node196mtp0dox52158 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94600 ;
+	rdf:object _:node196mtp0dox94591 .
+
+_:node196mtp0dox53962 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94600 ;
+	rdf:object _:node196mtp0dox94601 .
+
+_:node196mtp0dox57316 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94600 ;
+	rdf:object _:node196mtp0dox94570 .
+
+_:node196mtp0dox94599 atxa-core:contains _:node196mtp0dox94602 .
+
+_:node196mtp0dox94602 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#experiments$RunsWrapper.RunsWrapper()> ;
+	atxa-core:posX "1059" ;
+	atxa-core:posY "-76" .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94603 .
+
+_:node196mtp0dox94603 a atxa-core:node ;
+	atxa-core:model atxa-jdt-wkspc:gui ;
+	atxa-core:posX "2005" ;
+	atxa-core:posY "477" .
+
+atxa-jdt-wkspc:gui atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#gui$GUIReporter> , <http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI> .
+
+_:node196mtp0dox94603 atxa-core:contains _:node196mtp0dox94604 .
+
+_:node196mtp0dox94604 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#gui$GUIReporter> ;
+	atxa-core:posX "2024" ;
+	atxa-core:posY "645" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#gui$GUIReporter> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#gui$GUIReporter.step(SimState,)> .
+
+_:node196mtp0dox82764 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94604 ;
+	rdf:object _:node196mtp0dox94578 ;
+	atxa-core:bendpoint _:node196mtp0dox107069 .
+
+_:node196mtp0dox107069 atxa-core:bpLocation "2095,593" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox82764 atxa-core:bendpoint _:node196mtp0dox107070 .
+
+_:node196mtp0dox107070 atxa-core:bpLocation "720,593" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94604 atxa-core:contains _:node196mtp0dox94607 .
+
+_:node196mtp0dox94607 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#gui$GUIReporter.step(SimState,)> ;
+	atxa-core:posX "2025" ;
+	atxa-core:posY "663" .
+
+_:node196mtp0dox29879 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94607 ;
+	rdf:object _:node196mtp0dox94608 .
+
+_:node196mtp0dox31420 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94607 ;
+	rdf:object _:node196mtp0dox94609 .
+
+_:node196mtp0dox89335 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94607 ;
+	rdf:object _:node196mtp0dox94610 .
+
+_:node196mtp0dox94603 atxa-core:contains _:node196mtp0dox94611 .
+
+_:node196mtp0dox94611 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI> ;
+	atxa-core:posX "2011" ;
+	atxa-core:posY "502" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI.FinancialModelWithUI()> , <http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI.main(String[],)> , <http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI.start()> , <http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI.setupPortrayals()> .
+
+_:node196mtp0dox26590 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94611 ;
+	rdf:object _:node196mtp0dox94612 ;
+	atxa-core:bendpoint _:node196mtp0dox107071 .
+
+_:node196mtp0dox107071 atxa-core:bpLocation "2101,27" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox26590 atxa-core:bendpoint _:node196mtp0dox107072 .
+
+_:node196mtp0dox107072 atxa-core:bpLocation "2441,27" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94611 atxa-core:contains _:node196mtp0dox94615 .
+
+_:node196mtp0dox94615 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI.FinancialModelWithUI()> ;
+	atxa-core:posX "2012" ;
+	atxa-core:posY "520" .
+
+_:node196mtp0dox634 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94615 ;
+	rdf:object _:node196mtp0dox94559 .
+
+_:node196mtp0dox26121 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94615 ;
+	rdf:object _:node196mtp0dox94616 ;
+	atxa-core:bendpoint _:node196mtp0dox94617 .
+
+_:node196mtp0dox94617 atxa-core:bpLocation "1185,205" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox26121 atxa-core:bendpoint _:node196mtp0dox94618 .
+
+_:node196mtp0dox94618 atxa-core:bpLocation "1185,-34" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox76013 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94615 ;
+	rdf:object _:node196mtp0dox94619 .
+
+_:node196mtp0dox94611 atxa-core:contains _:node196mtp0dox94620 .
+
+_:node196mtp0dox94620 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI.main(String[],)> ;
+	atxa-core:posX "2012" ;
+	atxa-core:posY "536" .
+
+_:node196mtp0dox25909 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94620 ;
+	rdf:object _:node196mtp0dox94615 .
+
+_:node196mtp0dox27322 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94620 ;
+	rdf:object _:node196mtp0dox94621 ;
+	atxa-core:bendpoint _:node196mtp0dox94622 .
+
+_:node196mtp0dox94622 atxa-core:bpLocation "1064,221" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox27322 atxa-core:bendpoint _:node196mtp0dox94623 .
+
+_:node196mtp0dox94623 atxa-core:bpLocation "1064,169" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox27322 atxa-core:bendpoint _:node196mtp0dox94624 .
+
+_:node196mtp0dox94624 atxa-core:bpLocation "1017,169" ;
+	atxa-core:bpIndex "2" .
+
+_:node196mtp0dox27322 atxa-core:bendpoint _:node196mtp0dox94625 .
+
+_:node196mtp0dox94625 atxa-core:bpLocation "1017,102" ;
+	atxa-core:bpIndex "3" .
+
+_:node196mtp0dox27322 atxa-core:bendpoint _:node196mtp0dox94626 .
+
+_:node196mtp0dox94626 atxa-core:bpLocation "942,102" ;
+	atxa-core:bpIndex "4" .
+
+_:node196mtp0dox27322 atxa-core:bendpoint _:node196mtp0dox94627 .
+
+_:node196mtp0dox94627 atxa-core:bpLocation "976,11" ;
+	atxa-core:bpIndex "5" .
+
+_:node196mtp0dox94611 atxa-core:contains _:node196mtp0dox94628 .
+
+_:node196mtp0dox94628 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI.start()> ;
+	atxa-core:posX "2012" ;
+	atxa-core:posY "552" .
+
+_:node196mtp0dox78567 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94628 ;
+	rdf:object _:node196mtp0dox94629 .
+
+_:node196mtp0dox81813 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94628 ;
+	rdf:object _:node196mtp0dox94630 .
+
+_:node196mtp0dox94611 atxa-core:contains _:node196mtp0dox94630 .
+
+_:node196mtp0dox94630 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#gui$FinancialModelWithUI.setupPortrayals()> ;
+	atxa-core:posX "2012" ;
+	atxa-core:posY "568" .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94631 .
+
+_:node196mtp0dox94631 a atxa-core:node ;
+	atxa-core:model atxa-jdt-wkspc:support ;
+	atxa-core:posX "116" ;
+	atxa-core:posY "671" .
+
+atxa-jdt-wkspc:support atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter> , <http://www.architexa.com/rdf/jdt-wkspc#support$ModelFactory> .
+
+_:node196mtp0dox94631 atxa-core:contains _:node196mtp0dox94637 .
+
+_:node196mtp0dox94637 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter> ;
+	atxa-core:posX "844" ;
+	atxa-core:posY "715" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#support$Reporter> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.step(SimState,)> , <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.Reporter(FinancialModel,)> , <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.finishAll()> , <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.myModel> , <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.outParameters> , <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.outPrices> , <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.serialVersionUID> .
+
+_:node196mtp0dox96449 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94637 ;
+	rdf:object _:node196mtp0dox94578 ;
+	atxa-core:bendpoint _:node196mtp0dox107073 .
+
+_:node196mtp0dox107073 atxa-core:bpLocation "961,593" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox96449 atxa-core:bendpoint _:node196mtp0dox107074 .
+
+_:node196mtp0dox107074 atxa-core:bpLocation "720,593" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94637 atxa-core:contains _:node196mtp0dox94638 .
+
+_:node196mtp0dox94638 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.step(SimState,)> ;
+	atxa-core:posX "845" ;
+	atxa-core:posY "797" .
+
+_:node196mtp0dox89419 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94638 ;
+	rdf:object _:node196mtp0dox94610 .
+
+_:node196mtp0dox91020 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94638 ;
+	rdf:object _:node196mtp0dox94608 .
+
+_:node196mtp0dox91101 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94638 ;
+	rdf:object _:node196mtp0dox94609 .
+
+_:node196mtp0dox91182 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94638 ;
+	rdf:object _:node196mtp0dox94639 .
+
+_:node196mtp0dox91263 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94638 ;
+	rdf:object _:node196mtp0dox94640 .
+
+_:node196mtp0dox91344 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94638 ;
+	rdf:object _:node196mtp0dox94592 .
+
+_:node196mtp0dox94637 atxa-core:contains _:node196mtp0dox94641 .
+
+_:node196mtp0dox94641 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.Reporter(FinancialModel,)> ;
+	atxa-core:posX "845" ;
+	atxa-core:posY "813" .
+
+_:node196mtp0dox91428 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94641 ;
+	rdf:object _:node196mtp0dox94597 .
+
+_:node196mtp0dox94637 atxa-core:contains _:node196mtp0dox94582 .
+
+_:node196mtp0dox94582 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.finishAll()> ;
+	atxa-core:posX "845" ;
+	atxa-core:posY "829" .
+
+_:node196mtp0dox94637 atxa-core:contains _:node196mtp0dox94642 .
+
+_:node196mtp0dox94642 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.myModel> ;
+	atxa-core:posX "845" ;
+	atxa-core:posY "733" .
+
+_:node196mtp0dox94637 atxa-core:contains _:node196mtp0dox94643 .
+
+_:node196mtp0dox94643 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.outParameters> ;
+	atxa-core:posX "845" ;
+	atxa-core:posY "749" .
+
+_:node196mtp0dox94637 atxa-core:contains _:node196mtp0dox94644 .
+
+_:node196mtp0dox94644 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.outPrices> ;
+	atxa-core:posX "845" ;
+	atxa-core:posY "765" .
+
+_:node196mtp0dox94637 atxa-core:contains _:node196mtp0dox94645 .
+
+_:node196mtp0dox94645 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$Reporter.serialVersionUID> ;
+	atxa-core:posX "845" ;
+	atxa-core:posY "781" .
+
+_:node196mtp0dox94631 atxa-core:contains _:node196mtp0dox94632 .
+
+_:node196mtp0dox94632 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$ModelFactory> ;
+	atxa-core:posX "122" ;
+	atxa-core:posY "696" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#support$ModelFactory> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#support$ModelFactory.ModelFactory(FinancialModel,)> , <http://www.architexa.com/rdf/jdt-wkspc#support$ModelFactory.buildAgents()> , <http://www.architexa.com/rdf/jdt-wkspc#support$ModelFactory.createLotsOfAgents(String,int,)> .
+
+_:node196mtp0dox94632 atxa-core:contains _:node196mtp0dox94633 .
+
+_:node196mtp0dox94633 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$ModelFactory.ModelFactory(FinancialModel,)> ;
+	atxa-core:posX "123" ;
+	atxa-core:posY "714" .
+
+_:node196mtp0dox638 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94633 ;
+	rdf:object _:node196mtp0dox94559 .
+
+_:node196mtp0dox76968 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94633 ;
+	rdf:object _:node196mtp0dox94619 .
+
+_:node196mtp0dox94632 atxa-core:contains _:node196mtp0dox94571 .
+
+_:node196mtp0dox94571 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$ModelFactory.buildAgents()> ;
+	atxa-core:posX "123" ;
+	atxa-core:posY "730" .
+
+_:node196mtp0dox10379 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94571 ;
+	rdf:object _:node196mtp0dox94634 .
+
+_:node196mtp0dox36016 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94571 ;
+	rdf:object _:node196mtp0dox94635 .
+
+_:node196mtp0dox106030 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94571 ;
+	rdf:object _:node196mtp0dox107047 .
+
+_:node196mtp0dox106339 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94571 ;
+	rdf:object _:node196mtp0dox107075 .
+
+_:node196mtp0dox106868 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94571 ;
+	rdf:object _:node196mtp0dox107076 .
+
+_:node196mtp0dox94632 atxa-core:contains _:node196mtp0dox94635 .
+
+_:node196mtp0dox94635 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#support$ModelFactory.createLotsOfAgents(String,int,)> ;
+	atxa-core:posX "123" ;
+	atxa-core:posY "746" .
+
+_:node196mtp0dox35823 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94635 ;
+	rdf:object _:node196mtp0dox94636 .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94646 .
+
+_:node196mtp0dox94646 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents> ;
+	atxa-core:posX "-131" ;
+	atxa-core:posY "941" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.agents> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FarmerPatientPlayer> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FarmerImpatientPlayer> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ConstrainedFarmerPlayer> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FCImpatientPlayer> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$LSPlayer> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer> .
+
+_:node196mtp0dox94646 atxa-core:contains _:node196mtp0dox94651 .
+
+_:node196mtp0dox94651 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FarmerPatientPlayer> ;
+	atxa-core:posX "-125" ;
+	atxa-core:posY "1099" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.agents$FarmerPatientPlayer> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FarmerPatientPlayer.FarmerPatientPlayer()> .
+
+_:node196mtp0dox1058 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94651 ;
+	rdf:object _:node196mtp0dox94647 ;
+	atxa-core:bendpoint _:node196mtp0dox107077 .
+
+_:node196mtp0dox107077 atxa-core:bpLocation "-37,1069" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox1058 atxa-core:bendpoint _:node196mtp0dox107078 .
+
+_:node196mtp0dox107078 atxa-core:bpLocation "317,1069" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94651 atxa-core:contains _:node196mtp0dox107079 .
+
+_:node196mtp0dox107079 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FarmerPatientPlayer.FarmerPatientPlayer()> ;
+	atxa-core:posX "-124" ;
+	atxa-core:posY "1117" .
+
+_:node196mtp0dox104704 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107079 ;
+	rdf:object _:node196mtp0dox94650 .
+
+_:node196mtp0dox94646 atxa-core:contains _:node196mtp0dox94654 .
+
+_:node196mtp0dox94654 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FarmerImpatientPlayer> ;
+	atxa-core:posX "-63" ;
+	atxa-core:posY "1218" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.agents$FarmerImpatientPlayer> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FarmerImpatientPlayer.FarmerImpatientPlayer()> .
+
+_:node196mtp0dox1061 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94654 ;
+	rdf:object _:node196mtp0dox94647 ;
+	atxa-core:bendpoint _:node196mtp0dox107080 .
+
+_:node196mtp0dox107080 atxa-core:bpLocation "31,1069" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox1061 atxa-core:bendpoint _:node196mtp0dox107081 .
+
+_:node196mtp0dox107081 atxa-core:bpLocation "317,1069" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94654 atxa-core:contains _:node196mtp0dox107082 .
+
+_:node196mtp0dox107082 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FarmerImpatientPlayer.FarmerImpatientPlayer()> ;
+	atxa-core:posX "-62" ;
+	atxa-core:posY "1236" .
+
+_:node196mtp0dox104703 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107082 ;
+	rdf:object _:node196mtp0dox94650 .
+
+_:node196mtp0dox94646 atxa-core:contains _:node196mtp0dox94657 .
+
+_:node196mtp0dox94657 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ConstrainedFarmerPlayer> ;
+	atxa-core:posX "-24" ;
+	atxa-core:posY "1275" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.agents$ConstrainedFarmerPlayer> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ConstrainedFarmerPlayer.ConstrainedFarmerPlayer()> .
+
+_:node196mtp0dox1062 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94657 ;
+	rdf:object _:node196mtp0dox94647 ;
+	atxa-core:bendpoint _:node196mtp0dox107083 .
+
+_:node196mtp0dox107083 atxa-core:bpLocation "76,1069" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox1062 atxa-core:bendpoint _:node196mtp0dox107084 .
+
+_:node196mtp0dox107084 atxa-core:bpLocation "317,1069" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94657 atxa-core:contains _:node196mtp0dox107085 .
+
+_:node196mtp0dox107085 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ConstrainedFarmerPlayer.ConstrainedFarmerPlayer()> ;
+	atxa-core:posX "-23" ;
+	atxa-core:posY "1293" .
+
+_:node196mtp0dox104701 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107085 ;
+	rdf:object _:node196mtp0dox94650 .
+
+_:node196mtp0dox94646 atxa-core:contains _:node196mtp0dox94660 .
+
+_:node196mtp0dox94660 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FCImpatientPlayer> ;
+	atxa-core:posX "49" ;
+	atxa-core:posY "1330" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.agents$FCImpatientPlayer> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FCImpatientPlayer.FCImpatientPlayer()> .
+
+_:node196mtp0dox1063 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94660 ;
+	rdf:object _:node196mtp0dox94647 ;
+	atxa-core:bendpoint _:node196mtp0dox107086 .
+
+_:node196mtp0dox107086 atxa-core:bpLocation "133,1069" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox1063 atxa-core:bendpoint _:node196mtp0dox107087 .
+
+_:node196mtp0dox107087 atxa-core:bpLocation "317,1069" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94660 atxa-core:contains _:node196mtp0dox107088 .
+
+_:node196mtp0dox107088 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$FCImpatientPlayer.FCImpatientPlayer()> ;
+	atxa-core:posX "50" ;
+	atxa-core:posY "1348" .
+
+_:node196mtp0dox104702 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107088 ;
+	rdf:object _:node196mtp0dox94650 .
+
+_:node196mtp0dox94646 atxa-core:contains _:node196mtp0dox94663 .
+
+_:node196mtp0dox94663 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$LSPlayer> ;
+	atxa-core:posX "166" ;
+	atxa-core:posY "1465" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.agents$LSPlayer> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.agents$LSPlayer.LSPlayer()> .
+
+_:node196mtp0dox33325 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94663 ;
+	rdf:object _:node196mtp0dox94647 ;
+	atxa-core:bendpoint _:node196mtp0dox107089 .
+
+_:node196mtp0dox107089 atxa-core:bpLocation "226,1069" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox33325 atxa-core:bendpoint _:node196mtp0dox107090 .
+
+_:node196mtp0dox107090 atxa-core:bpLocation "317,1069" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94663 atxa-core:contains _:node196mtp0dox107091 .
+
+_:node196mtp0dox107091 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$LSPlayer.LSPlayer()> ;
+	atxa-core:posX "167" ;
+	atxa-core:posY "1483" .
+
+_:node196mtp0dox104705 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107091 ;
+	rdf:object _:node196mtp0dox94650 .
+
+_:node196mtp0dox94646 atxa-core:contains _:node196mtp0dox94666 .
+
+_:node196mtp0dox94666 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer> ;
+	atxa-core:posX "725" ;
+	atxa-core:posY "1108" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.generateOrders()> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.ContPlayer()> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.updateThresholds()> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.step(SimState,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.s_local> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.serialVersionUID> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.threshold> .
+
+_:node196mtp0dox32181 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94666 ;
+	rdf:object _:node196mtp0dox94647 ;
+	atxa-core:bendpoint _:node196mtp0dox107092 .
+
+_:node196mtp0dox107092 atxa-core:bpLocation "807,1069" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox32181 atxa-core:bendpoint _:node196mtp0dox107093 .
+
+_:node196mtp0dox107093 atxa-core:bpLocation "317,1069" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94666 atxa-core:contains _:node196mtp0dox94669 .
+
+_:node196mtp0dox94669 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.generateOrders()> ;
+	atxa-core:posX "726" ;
+	atxa-core:posY "1174" .
+
+_:node196mtp0dox31872 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94669 ;
+	rdf:object _:node196mtp0dox94609 .
+
+_:node196mtp0dox94666 atxa-core:contains _:node196mtp0dox94670 .
+
+_:node196mtp0dox94670 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.ContPlayer()> ;
+	atxa-core:posX "726" ;
+	atxa-core:posY "1190" .
+
+_:node196mtp0dox35406 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94670 ;
+	rdf:object _:node196mtp0dox94650 .
+
+_:node196mtp0dox94666 atxa-core:contains _:node196mtp0dox94671 .
+
+_:node196mtp0dox94671 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.updateThresholds()> ;
+	atxa-core:posX "726" ;
+	atxa-core:posY "1206" .
+
+_:node196mtp0dox49454 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94671 ;
+	rdf:object _:node196mtp0dox94639 .
+
+_:node196mtp0dox94666 atxa-core:contains _:node196mtp0dox94672 .
+
+_:node196mtp0dox94672 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.step(SimState,)> ;
+	atxa-core:posX "726" ;
+	atxa-core:posY "1222" .
+
+_:node196mtp0dox87888 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94672 ;
+	rdf:object _:node196mtp0dox94671 .
+
+_:node196mtp0dox88049 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94672 ;
+	rdf:object _:node196mtp0dox94592 .
+
+_:node196mtp0dox88452 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94672 ;
+	rdf:object _:node196mtp0dox94669 .
+
+_:node196mtp0dox94666 atxa-core:contains _:node196mtp0dox94673 .
+
+_:node196mtp0dox94673 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.s_local> ;
+	atxa-core:posX "726" ;
+	atxa-core:posY "1126" .
+
+_:node196mtp0dox94666 atxa-core:contains _:node196mtp0dox94674 .
+
+_:node196mtp0dox94674 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.serialVersionUID> ;
+	atxa-core:posX "726" ;
+	atxa-core:posY "1142" .
+
+_:node196mtp0dox94666 atxa-core:contains _:node196mtp0dox94675 .
+
+_:node196mtp0dox94675 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$ContPlayer.threshold> ;
+	atxa-core:posX "726" ;
+	atxa-core:posY "1158" .
+
+_:node196mtp0dox94646 atxa-core:contains _:node196mtp0dox94647 .
+
+_:node196mtp0dox94647 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer> ;
+	atxa-core:posX "219" ;
+	atxa-core:posY "966" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer.GenericPlayer()> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer.setup(int,FinancialModel,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer.myWorld> , <http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer.id> .
+
+_:node196mtp0dox1059 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94647 ;
+	rdf:object _:node196mtp0dox94578 ;
+	atxa-core:bendpoint _:node196mtp0dox107094 .
+
+_:node196mtp0dox107094 atxa-core:bpLocation "317,593" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox1059 atxa-core:bendpoint _:node196mtp0dox107095 .
+
+_:node196mtp0dox107095 atxa-core:bpLocation "720,593" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94647 atxa-core:contains _:node196mtp0dox94650 .
+
+_:node196mtp0dox94650 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer.GenericPlayer()> ;
+	atxa-core:posX "220" ;
+	atxa-core:posY "1016" .
+
+_:node196mtp0dox94647 atxa-core:contains _:node196mtp0dox94636 .
+
+_:node196mtp0dox94636 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer.setup(int,FinancialModel,)> ;
+	atxa-core:posX "220" ;
+	atxa-core:posY "1032" .
+
+_:node196mtp0dox104434 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94636 ;
+	rdf:object _:node196mtp0dox107047 .
+
+_:node196mtp0dox94647 atxa-core:contains _:node196mtp0dox107096 .
+
+_:node196mtp0dox107096 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer.myWorld> ;
+	atxa-core:posX "220" ;
+	atxa-core:posY "984" .
+
+_:node196mtp0dox94647 atxa-core:contains _:node196mtp0dox107097 .
+
+_:node196mtp0dox107097 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.agents$GenericPlayer.id> ;
+	atxa-core:posX "220" ;
+	atxa-core:posY "1000" .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94676 .
+
+_:node196mtp0dox94676 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market> ;
+	atxa-core:posX "1665" ;
+	atxa-core:posY "839" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.market> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market> .
+
+_:node196mtp0dox94676 atxa-core:contains _:node196mtp0dox94677 .
+
+_:node196mtp0dox94677 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market> ;
+	atxa-core:posX "1671" ;
+	atxa-core:posY "864" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.market$Market> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.acceptMarketOrder(OrderType,int,int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.acceptOrder(LimitOrder,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.cancelOrder(LimitOrder,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getAskPriceForAsset(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getAverageTradePriceForAsset(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getBidPriceForAsset(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getOrderBookForAsset(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getRandomComponentForAsset(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getReturnRateForAsset(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getVolumeForAsset(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.Market(FinancialModel,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.myWorld> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.orderBooks> , <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.step(SimState,)> .
+
+_:node196mtp0dox5638 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94677 ;
+	rdf:object _:node196mtp0dox94578 ;
+	atxa-core:bendpoint _:node196mtp0dox107098 .
+
+_:node196mtp0dox107098 atxa-core:bpLocation "1837,593" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox5638 atxa-core:bendpoint _:node196mtp0dox107099 .
+
+_:node196mtp0dox107099 atxa-core:bpLocation "720,593" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94680 .
+
+_:node196mtp0dox94680 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.acceptMarketOrder(OrderType,int,int,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "914" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94681 .
+
+_:node196mtp0dox94681 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.acceptOrder(LimitOrder,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "930" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94682 .
+
+_:node196mtp0dox94682 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.cancelOrder(LimitOrder,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "946" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94608 .
+
+_:node196mtp0dox94608 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getAskPriceForAsset(int,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "962" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94640 .
+
+_:node196mtp0dox94640 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getAverageTradePriceForAsset(int,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "978" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94609 .
+
+_:node196mtp0dox94609 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getBidPriceForAsset(int,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "994" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94683 .
+
+_:node196mtp0dox94683 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getOrderBookForAsset(int,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "1010" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94684 .
+
+_:node196mtp0dox94684 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getRandomComponentForAsset(int,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "1026" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94639 .
+
+_:node196mtp0dox94639 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getReturnRateForAsset(int,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "1042" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94610 .
+
+_:node196mtp0dox94610 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.getVolumeForAsset(int,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "1058" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94634 .
+
+_:node196mtp0dox94634 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.Market(FinancialModel,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "1074" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94685 .
+
+_:node196mtp0dox94685 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.myWorld> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "882" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94686 .
+
+_:node196mtp0dox94686 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.orderBooks> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "898" .
+
+_:node196mtp0dox94677 atxa-core:contains _:node196mtp0dox94687 .
+
+_:node196mtp0dox94687 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market$Market.step(SimState,)> ;
+	atxa-core:posX "1672" ;
+	atxa-core:posY "1090" .
+
+_:node196mtp0dox88933 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94687 ;
+	rdf:object _:node196mtp0dox94688 .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94689 .
+
+_:node196mtp0dox94689 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books> ;
+	atxa-core:posX "1104" ;
+	atxa-core:posY "1345" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.market.books> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LSBook> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LiquidityException> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$OrderBook> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook> .
+
+_:node196mtp0dox94689 atxa-core:contains _:node196mtp0dox94690 .
+
+_:node196mtp0dox94690 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook> ;
+	atxa-core:posX "1679" ;
+	atxa-core:posY "1406" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.setMyWorld(FinancialModel,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.placeLimitOrder(LimitOrder,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getAskPrice()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getSpread()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.cleanup()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.buyOrders> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.cancelLimitOrder(LimitOrder,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.DoubleAuctionOrderBook()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.epsilon_t> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.executeMarketOrder(OrderType,int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getAverageTradePrice()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getBidPrice()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getBuyOrders()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getRandomComponent()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getReturnRate()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getSellOrders()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getTickPrice()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getVolume()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.logPricing> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.myID> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.myWorld> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.oldValueTraded> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.oldVolumeTraded> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.price_t> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.returnRate_t> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.sellOrders> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.setMyID(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.valueTraded> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.volumeTraded> .
+
+_:node196mtp0dox10800 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94690 ;
+	rdf:object _:node196mtp0dox94691 ;
+	atxa-core:bendpoint _:node196mtp0dox107100 .
+
+_:node196mtp0dox107100 atxa-core:bpLocation "1808,1493" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox10800 atxa-core:bendpoint _:node196mtp0dox107101 .
+
+_:node196mtp0dox107101 atxa-core:bpLocation "2345,1493" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94694 .
+
+_:node196mtp0dox94694 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.setMyWorld(FinancialModel,)> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1616" .
+
+_:node196mtp0dox47903 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94694 ;
+	rdf:object _:node196mtp0dox94572 .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94695 .
+
+_:node196mtp0dox94695 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.placeLimitOrder(LimitOrder,)> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1632" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94696 .
+
+_:node196mtp0dox94696 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getAskPrice()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1648" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94697 .
+
+_:node196mtp0dox94697 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getSpread()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1664" .
+
+_:node196mtp0dox47540 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94697 ;
+	rdf:object _:node196mtp0dox94696 .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94698 .
+
+_:node196mtp0dox94698 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.cleanup()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1680" .
+
+_:node196mtp0dox47685 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94698 ;
+	rdf:object _:node196mtp0dox94697 .
+
+_:node196mtp0dox47830 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94698 ;
+	rdf:object _:node196mtp0dox94696 .
+
+_:node196mtp0dox48048 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94698 ;
+	rdf:object _:node196mtp0dox94572 .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94699 .
+
+_:node196mtp0dox94699 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.buyOrders> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1424" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94700 .
+
+_:node196mtp0dox94700 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.cancelLimitOrder(LimitOrder,)> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1696" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94701 .
+
+_:node196mtp0dox94701 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.DoubleAuctionOrderBook()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1712" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94702 .
+
+_:node196mtp0dox94702 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.epsilon_t> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1440" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94703 .
+
+_:node196mtp0dox94703 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.executeMarketOrder(OrderType,int,)> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1728" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94704 .
+
+_:node196mtp0dox94704 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getAverageTradePrice()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1744" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94705 .
+
+_:node196mtp0dox94705 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getBidPrice()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1760" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94706 .
+
+_:node196mtp0dox94706 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getBuyOrders()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1776" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94707 .
+
+_:node196mtp0dox94707 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getRandomComponent()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1792" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94708 .
+
+_:node196mtp0dox94708 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getReturnRate()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1808" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94709 .
+
+_:node196mtp0dox94709 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getSellOrders()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1824" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94710 .
+
+_:node196mtp0dox94710 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getTickPrice()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1840" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94711 .
+
+_:node196mtp0dox94711 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.getVolume()> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1856" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94712 .
+
+_:node196mtp0dox94712 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.logPricing> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1456" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94713 .
+
+_:node196mtp0dox94713 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.myID> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1472" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94714 .
+
+_:node196mtp0dox94714 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.myWorld> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1488" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94715 .
+
+_:node196mtp0dox94715 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.oldValueTraded> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1504" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94716 .
+
+_:node196mtp0dox94716 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.oldVolumeTraded> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1520" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94717 .
+
+_:node196mtp0dox94717 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.price_t> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1536" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94718 .
+
+_:node196mtp0dox94718 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.returnRate_t> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1552" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94719 .
+
+_:node196mtp0dox94719 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.sellOrders> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1568" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94720 .
+
+_:node196mtp0dox94720 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.setMyID(int,)> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1872" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94721 .
+
+_:node196mtp0dox94721 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.valueTraded> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1584" .
+
+_:node196mtp0dox94690 atxa-core:contains _:node196mtp0dox94722 .
+
+_:node196mtp0dox94722 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$DoubleAuctionOrderBook.volumeTraded> ;
+	atxa-core:posX "1680" ;
+	atxa-core:posY "1600" .
+
+_:node196mtp0dox94689 atxa-core:contains _:node196mtp0dox94723 .
+
+_:node196mtp0dox94723 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LSBook> ;
+	atxa-core:posX "2360" ;
+	atxa-core:posY "1938" .
+
+_:node196mtp0dox42841 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94723 ;
+	rdf:object _:node196mtp0dox94691 ;
+	atxa-core:bendpoint _:node196mtp0dox107102 .
+
+_:node196mtp0dox107102 atxa-core:bpLocation "2399,1493" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox42841 atxa-core:bendpoint _:node196mtp0dox107103 .
+
+_:node196mtp0dox107103 atxa-core:bpLocation "2345,1493" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94689 atxa-core:contains _:node196mtp0dox94726 .
+
+_:node196mtp0dox94726 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LiquidityException> ;
+	atxa-core:posX "1110" ;
+	atxa-core:posY "1370" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LiquidityException> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LiquidityException.LiquidityException(int,double,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LiquidityException.quantityExecuted> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LiquidityException.totalPrice> .
+
+_:node196mtp0dox18996 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94726 ;
+	rdf:object _:node196mtp0dox94727 ;
+	atxa-core:bendpoint _:node196mtp0dox107104 .
+
+_:node196mtp0dox107104 atxa-core:bpLocation "1216,1304" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox18996 atxa-core:bendpoint _:node196mtp0dox107105 .
+
+_:node196mtp0dox107105 atxa-core:bpLocation "1606,1304" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94726 atxa-core:contains _:node196mtp0dox94730 .
+
+_:node196mtp0dox94730 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LiquidityException.LiquidityException(int,double,)> ;
+	atxa-core:posX "1111" ;
+	atxa-core:posY "1420" .
+
+_:node196mtp0dox94726 atxa-core:contains _:node196mtp0dox94731 .
+
+_:node196mtp0dox94731 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LiquidityException.quantityExecuted> ;
+	atxa-core:posX "1111" ;
+	atxa-core:posY "1388" .
+
+_:node196mtp0dox94726 atxa-core:contains _:node196mtp0dox94732 .
+
+_:node196mtp0dox94732 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LiquidityException.totalPrice> ;
+	atxa-core:posX "1111" ;
+	atxa-core:posY "1404" .
+
+_:node196mtp0dox94689 atxa-core:contains _:node196mtp0dox94733 .
+
+_:node196mtp0dox94733 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder> ;
+	atxa-core:posX "1168" ;
+	atxa-core:posY "1511" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.assetID> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.cancelled> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.compareTo(Object,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.entryTime> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.expirationTime> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.getStatus()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.investor> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.LimitOrder(GenericPlayer,OrderType,int,double,int,double,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder$LimitStatus> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.pricePerUnit> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.quantity> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.quantityExecuted> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.quantityPending()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.type> .
+
+_:node196mtp0dox20032 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94733 ;
+	rdf:object _:node196mtp0dox94734 ;
+	atxa-core:bendpoint _:node196mtp0dox107106 .
+
+_:node196mtp0dox107106 atxa-core:bpLocation "1345,1299" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox20032 atxa-core:bendpoint _:node196mtp0dox107107 .
+
+_:node196mtp0dox107107 atxa-core:bpLocation "1713,1299" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94737 .
+
+_:node196mtp0dox94737 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.assetID> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1529" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94738 .
+
+_:node196mtp0dox94738 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.cancelled> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1545" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94739 .
+
+_:node196mtp0dox94739 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.compareTo(Object,)> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1673" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94740 .
+
+_:node196mtp0dox94740 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.entryTime> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1561" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94741 .
+
+_:node196mtp0dox94741 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.expirationTime> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1577" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94742 .
+
+_:node196mtp0dox94742 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.getStatus()> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1689" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94743 .
+
+_:node196mtp0dox94743 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.investor> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1593" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94744 .
+
+_:node196mtp0dox94744 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.LimitOrder(GenericPlayer,OrderType,int,double,int,double,)> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1705" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94745 .
+
+_:node196mtp0dox94745 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder$LimitStatus> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1737" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94746 .
+
+_:node196mtp0dox94746 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.pricePerUnit> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1609" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94747 .
+
+_:node196mtp0dox94747 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.quantity> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1625" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94748 .
+
+_:node196mtp0dox94748 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.quantityExecuted> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1641" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94749 .
+
+_:node196mtp0dox94749 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.quantityPending()> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1721" .
+
+_:node196mtp0dox94733 atxa-core:contains _:node196mtp0dox94750 .
+
+_:node196mtp0dox94750 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$LimitOrder.type> ;
+	atxa-core:posX "1169" ;
+	atxa-core:posY "1657" .
+
+_:node196mtp0dox94689 atxa-core:contains _:node196mtp0dox94691 .
+
+_:node196mtp0dox94691 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$OrderBook> ;
+	atxa-core:posX "2243" ;
+	atxa-core:posY "1406" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.market.books$OrderBook> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$OrderBook.cleanup()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$OrderBook.setMyID(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$OrderBook.setMyWorld(FinancialModel,)> .
+
+_:node196mtp0dox94691 atxa-core:contains _:node196mtp0dox94688 .
+
+_:node196mtp0dox94688 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$OrderBook.cleanup()> ;
+	atxa-core:posX "2244" ;
+	atxa-core:posY "1424" .
+
+_:node196mtp0dox94691 atxa-core:contains _:node196mtp0dox107075 .
+
+_:node196mtp0dox107075 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$OrderBook.setMyID(int,)> ;
+	atxa-core:posX "2244" ;
+	atxa-core:posY "1440" .
+
+_:node196mtp0dox94691 atxa-core:contains _:node196mtp0dox107076 .
+
+_:node196mtp0dox107076 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$OrderBook.setMyWorld(FinancialModel,)> ;
+	atxa-core:posX "2244" ;
+	atxa-core:posY "1456" .
+
+_:node196mtp0dox94689 atxa-core:contains _:node196mtp0dox94751 .
+
+_:node196mtp0dox94751 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook> ;
+	atxa-core:posX "1983" ;
+	atxa-core:posY "1515" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getAskPrice()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.setMyWorld(FinancialModel,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getBidPrice()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.averageTradePrice> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.cancelLimitOrder(LimitOrder,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.cleanup()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.ContBook()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.currentDemand> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.currentSupply> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.epsilon_t> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.excessDemand> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.executeMarketOrder(OrderType,int,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getAverageTradePrice()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getBuyOrders()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getRandomComponent()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getReturnRate()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getSellOrders()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getSpread()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getVolume()> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.myWorld> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.oldVolume> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.placeLimitOrder(LimitOrder,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.price_t> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.priceImpact(double,)> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.returnRate_t> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.serialVersionUID> , <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.setMyID(int,)> .
+
+_:node196mtp0dox43355 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94751 ;
+	rdf:object _:node196mtp0dox94691 ;
+	atxa-core:bendpoint _:node196mtp0dox107108 .
+
+_:node196mtp0dox107108 atxa-core:bpLocation "2112,1493" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox43355 atxa-core:bendpoint _:node196mtp0dox107109 .
+
+_:node196mtp0dox107109 atxa-core:bpLocation "2345,1493" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94754 .
+
+_:node196mtp0dox94754 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getAskPrice()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1693" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94755 .
+
+_:node196mtp0dox94755 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.setMyWorld(FinancialModel,)> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1709" .
+
+_:node196mtp0dox44943 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94755 ;
+	rdf:object _:node196mtp0dox94572 .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94756 .
+
+_:node196mtp0dox94756 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getBidPrice()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1725" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94757 .
+
+_:node196mtp0dox94757 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.averageTradePrice> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1533" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94758 .
+
+_:node196mtp0dox94758 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.cancelLimitOrder(LimitOrder,)> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1741" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94759 .
+
+_:node196mtp0dox94759 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.cleanup()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1757" .
+
+_:node196mtp0dox89254 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94759 ;
+	rdf:object _:node196mtp0dox94760 .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94761 .
+
+_:node196mtp0dox94761 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.ContBook()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1773" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94762 .
+
+_:node196mtp0dox94762 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.currentDemand> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1549" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94763 .
+
+_:node196mtp0dox94763 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.currentSupply> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1565" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94764 .
+
+_:node196mtp0dox94764 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.epsilon_t> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1581" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94765 .
+
+_:node196mtp0dox94765 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.excessDemand> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1597" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94766 .
+
+_:node196mtp0dox94766 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.executeMarketOrder(OrderType,int,)> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1789" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94767 .
+
+_:node196mtp0dox94767 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getAverageTradePrice()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1805" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94768 .
+
+_:node196mtp0dox94768 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getBuyOrders()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1821" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94769 .
+
+_:node196mtp0dox94769 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getRandomComponent()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1837" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94770 .
+
+_:node196mtp0dox94770 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getReturnRate()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1853" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94771 .
+
+_:node196mtp0dox94771 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getSellOrders()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1869" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94772 .
+
+_:node196mtp0dox94772 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getSpread()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1885" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94773 .
+
+_:node196mtp0dox94773 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.getVolume()> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1901" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94774 .
+
+_:node196mtp0dox94774 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.myWorld> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1613" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94775 .
+
+_:node196mtp0dox94775 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.oldVolume> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1629" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94776 .
+
+_:node196mtp0dox94776 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.placeLimitOrder(LimitOrder,)> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1917" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94777 .
+
+_:node196mtp0dox94777 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.price_t> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1645" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94760 .
+
+_:node196mtp0dox94760 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.priceImpact(double,)> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1933" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94778 .
+
+_:node196mtp0dox94778 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.returnRate_t> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1661" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94779 .
+
+_:node196mtp0dox94779 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.serialVersionUID> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1677" .
+
+_:node196mtp0dox94751 atxa-core:contains _:node196mtp0dox94780 .
+
+_:node196mtp0dox94780 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#model.market.books$ContBook.setMyID(int,)> ;
+	atxa-core:posX "1984" ;
+	atxa-core:posY "1949" .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94781 .
+
+_:node196mtp0dox94781 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.lang> ;
+	atxa-core:posX "1428" ;
+	atxa-core:posY "1222" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#java.lang> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#java.lang$Comparable> , <http://www.architexa.com/rdf/jdt-wkspc#java.lang$System> , <http://www.architexa.com/rdf/jdt-wkspc#java.lang$Exception> .
+
+_:node196mtp0dox94781 atxa-core:contains _:node196mtp0dox94734 .
+
+_:node196mtp0dox94734 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.lang$Comparable> ;
+	atxa-core:posX "1660" ;
+	atxa-core:posY "1247" .
+
+_:node196mtp0dox94781 atxa-core:contains _:node196mtp0dox94782 .
+
+_:node196mtp0dox94782 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.lang$System> ;
+	atxa-core:posX "1434" ;
+	atxa-core:posY "1249" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#java.lang$System> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#java.lang$System.exit(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#java.lang$System.currentTimeMillis()> .
+
+_:node196mtp0dox94782 atxa-core:contains _:node196mtp0dox94562 .
+
+_:node196mtp0dox94562 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.lang$System.exit(int,)> ;
+	atxa-core:posX "1435" ;
+	atxa-core:posY "1267" .
+
+_:node196mtp0dox94782 atxa-core:contains _:node196mtp0dox94619 .
+
+_:node196mtp0dox94619 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.lang$System.currentTimeMillis()> ;
+	atxa-core:posX "1435" ;
+	atxa-core:posY "1283" .
+
+_:node196mtp0dox94781 atxa-core:contains _:node196mtp0dox94727 .
+
+_:node196mtp0dox94727 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.lang$Exception> ;
+	atxa-core:posX "1560" ;
+	atxa-core:posY "1252" .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94783 .
+
+_:node196mtp0dox94783 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.display> ;
+	atxa-core:posX "2036" ;
+	atxa-core:posY "-85" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#sim.display> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#sim.display$GUIState> , <http://www.architexa.com/rdf/jdt-wkspc#sim.display$Console> .
+
+_:node196mtp0dox94783 atxa-core:contains _:node196mtp0dox94612 .
+
+_:node196mtp0dox94612 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.display$GUIState> ;
+	atxa-core:posX "2359" ;
+	atxa-core:posY "-60" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#sim.display$GUIState> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#sim.display$GUIState.GUIState(SimState,)> , <http://www.architexa.com/rdf/jdt-wkspc#sim.display$GUIState.start()> , <http://www.architexa.com/rdf/jdt-wkspc#sim.display$GUIState.step()> .
+
+_:node196mtp0dox94612 atxa-core:contains _:node196mtp0dox94616 .
+
+_:node196mtp0dox94616 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.display$GUIState.GUIState(SimState,)> ;
+	atxa-core:posX "2360" ;
+	atxa-core:posY "-42" .
+
+_:node196mtp0dox94612 atxa-core:contains _:node196mtp0dox94629 .
+
+_:node196mtp0dox94629 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.display$GUIState.start()> ;
+	atxa-core:posX "2360" ;
+	atxa-core:posY "-26" .
+
+_:node196mtp0dox94612 atxa-core:contains _:node196mtp0dox107110 .
+
+_:node196mtp0dox107110 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.display$GUIState.step()> ;
+	atxa-core:posX "2360" ;
+	atxa-core:posY "-10" .
+
+_:node196mtp0dox97752 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107110 ;
+	rdf:object _:node196mtp0dox94591 .
+
+_:node196mtp0dox94783 atxa-core:contains _:node196mtp0dox94784 .
+
+_:node196mtp0dox94784 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.display$Console> ;
+	atxa-core:posX "2042" ;
+	atxa-core:posY "1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#sim.display$Console> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#sim.display$Console.Console(GUIState,)> .
+
+_:node196mtp0dox94784 atxa-core:contains _:node196mtp0dox94621 .
+
+_:node196mtp0dox94621 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.display$Console.Console(GUIState,)> ;
+	atxa-core:posX "2043" ;
+	atxa-core:posY "19" .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94785 .
+
+_:node196mtp0dox94785 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.util> ;
+	atxa-core:posX "2117" ;
+	atxa-core:posY "1179" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#java.util> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#java.util$HashMap> .
+
+_:node196mtp0dox94785 atxa-core:contains _:node196mtp0dox94786 .
+
+_:node196mtp0dox94786 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.util$HashMap> ;
+	atxa-core:posX "2123" ;
+	atxa-core:posY "1204" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#java.util$HashMap> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#java.util$HashMap.get(Object,)> .
+
+_:node196mtp0dox94786 atxa-core:contains _:node196mtp0dox94572 .
+
+_:node196mtp0dox94572 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.util$HashMap.get(Object,)> ;
+	atxa-core:posX "2124" ;
+	atxa-core:posY "1222" .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox94787 .
+
+_:node196mtp0dox94787 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#ec.util> ;
+	atxa-core:posX "-94" ;
+	atxa-core:posY "-135" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#ec.util> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#ec.util$MersenneTwisterFast> .
+
+_:node196mtp0dox94787 atxa-core:contains _:node196mtp0dox94788 .
+
+_:node196mtp0dox94788 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#ec.util$MersenneTwisterFast> ;
+	atxa-core:posX "-88" ;
+	atxa-core:posY "-110" ;
+	atxa-core:color "f2;;77;;77" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#ec.util$MersenneTwisterFast> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#ec.util$MersenneTwisterFast.nextDouble()> , <http://www.architexa.com/rdf/jdt-wkspc#ec.util$MersenneTwisterFast.main(String[],)> , <http://www.architexa.com/rdf/jdt-wkspc#ec.util$MersenneTwisterFast.MersenneTwisterFast()> .
+
+_:node196mtp0dox54503 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node196mtp0dox94788 ;
+	rdf:object _:node196mtp0dox94587 ;
+	atxa-core:bendpoint _:node196mtp0dox107111 .
+
+_:node196mtp0dox107111 atxa-core:bpLocation "3,576" ;
+	atxa-core:bpIndex "0" .
+
+_:node196mtp0dox54503 atxa-core:bendpoint _:node196mtp0dox107112 .
+
+_:node196mtp0dox107112 atxa-core:bpLocation "-46,576" ;
+	atxa-core:bpIndex "1" .
+
+_:node196mtp0dox94788 atxa-core:contains _:node196mtp0dox94601 .
+
+_:node196mtp0dox94601 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#ec.util$MersenneTwisterFast.nextDouble()> ;
+	atxa-core:posX "-87" ;
+	atxa-core:posY "-92" .
+
+_:node196mtp0dox94788 atxa-core:contains _:node196mtp0dox94791 .
+
+_:node196mtp0dox94791 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#ec.util$MersenneTwisterFast.main(String[],)> ;
+	atxa-core:posX "-87" ;
+	atxa-core:posY "-76" .
+
+_:node196mtp0dox77045 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94791 ;
+	rdf:object _:node196mtp0dox94619 .
+
+_:node196mtp0dox94788 atxa-core:contains _:node196mtp0dox94792 .
+
+_:node196mtp0dox94792 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#ec.util$MersenneTwisterFast.MersenneTwisterFast()> ;
+	atxa-core:posX "-87" ;
+	atxa-core:posY "-60" .
+
+_:node196mtp0dox77274 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox94792 ;
+	rdf:object _:node196mtp0dox94619 .
+
+atxa-core:docRoot atxa-core:contains _:node196mtp0dox107113 .
+
+_:node196mtp0dox107113 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.util> ;
+	atxa-core:posX "867" ;
+	atxa-core:posY "-1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#sim.util> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag> .
+
+_:node196mtp0dox107113 atxa-core:contains _:node196mtp0dox107114 .
+
+_:node196mtp0dox107114 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag> ;
+	atxa-core:posX "873" ;
+	atxa-core:posY "24" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag.addAll(Bag,)> , <http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag.addAll(int,Bag,)> , <http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag.addAll(int,Collection,)> , <http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag.Bag()> .
+
+_:node196mtp0dox107114 atxa-core:contains _:node196mtp0dox107060 .
+
+_:node196mtp0dox107060 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag.addAll(Bag,)> ;
+	atxa-core:posX "874" ;
+	atxa-core:posY "42" .
+
+_:node196mtp0dox98643 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107060 ;
+	rdf:object _:node196mtp0dox107115 .
+
+_:node196mtp0dox107114 atxa-core:contains _:node196mtp0dox107115 .
+
+_:node196mtp0dox107115 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag.addAll(int,Bag,)> ;
+	atxa-core:posX "874" ;
+	atxa-core:posY "58" .
+
+_:node196mtp0dox107114 atxa-core:contains _:node196mtp0dox107116 .
+
+_:node196mtp0dox107116 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag.addAll(int,Collection,)> ;
+	atxa-core:posX "874" ;
+	atxa-core:posY "74" .
+
+_:node196mtp0dox99150 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node196mtp0dox107116 ;
+	rdf:object _:node196mtp0dox107115 .
+
+_:node196mtp0dox107114 atxa-core:contains _:node196mtp0dox107061 .
+
+_:node196mtp0dox107061 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#sim.util$Bag.Bag()> ;
+	atxa-core:posX "874" ;
+	atxa-core:posY "90" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#01ClassDiagramFMM.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node196mtp0dox94558 , _:node196mtp0dox94559 , _:node196mtp0dox94560 , _:node196mtp0dox94563 , _:node196mtp0dox94564 , _:node196mtp0dox94565 , _:node196mtp0dox94566 , _:node196mtp0dox94567 , _:node196mtp0dox94568 , _:node196mtp0dox94569 , _:node196mtp0dox94570 , _:node196mtp0dox94576 , _:node196mtp0dox94561 , _:node196mtp0dox94573 , _:node196mtp0dox94581 , _:node196mtp0dox94584 , _:node196mtp0dox94585 , _:node196mtp0dox94577 , _:node196mtp0dox94554 , _:node196mtp0dox94553 , _:node196mtp0dox94583 , _:node196mtp0dox107052 , _:node196mtp0dox107054 , _:node196mtp0dox94555 , _:node196mtp0dox107057 , _:node196mtp0dox94578 , _:node196mtp0dox94591 , _:node196mtp0dox94592 , _:node196mtp0dox107053 , _:node196mtp0dox107062 , _:node196mtp0dox107063 , _:node196mtp0dox107064 , _:node196mtp0dox107065 , _:node196mtp0dox107066 , _:node196mtp0dox107067 , _:node196mtp0dox107047 , _:node196mtp0dox107068 , _:node196mtp0dox94590 , _:node196mtp0dox94586 , _:node196mtp0dox94597 , _:node196mtp0dox94596 , _:node196mtp0dox94587 , _:node196mtp0dox94595 , _:node196mtp0dox94600 , _:node196mtp0dox94602 , _:node196mtp0dox94599 , _:node196mtp0dox94598 , _:node196mtp0dox94607 , _:node196mtp0dox94604 , _:node196mtp0dox94615 , _:node196mtp0dox94620 , _:node196mtp0dox94628 , _:node196mtp0dox94630 , _:node196mtp0dox94611 , _:node196mtp0dox94603 , _:node196mtp0dox94638 , _:node196mtp0dox94641 , _:node196mtp0dox94582 , _:node196mtp0dox94642 , _:node196mtp0dox94643 , _:node196mtp0dox94644 , _:node196mtp0dox94645 , _:node196mtp0dox94637 , _:node196mtp0dox94633 , _:node196mtp0dox94571 , _:node196mtp0dox94635 , _:node196mtp0dox94632 , _:node196mtp0dox94631 , _:node196mtp0dox107079 , _:node196mtp0dox94651 , _:node196mtp0dox107082 , _:node196mtp0dox94654 , _:node196mtp0dox107085 , _:node196mtp0dox94657 , _:node196mtp0dox107088 , _:node196mtp0dox94660 , _:node196mtp0dox107091 , _:node196mtp0dox94663 , _:node196mtp0dox94669 , _:node196mtp0dox94670 , _:node196mtp0dox94671 , _:node196mtp0dox94672 , _:node196mtp0dox94673 , _:node196mtp0dox94674 , _:node196mtp0dox94675 , _:node196mtp0dox94666 , _:node196mtp0dox94650 , _:node196mtp0dox94636 , _:node196mtp0dox107096 , _:node196mtp0dox107097 , _:node196mtp0dox94647 , _:node196mtp0dox94646 , _:node196mtp0dox94680 , _:node196mtp0dox94681 , _:node196mtp0dox94682 , _:node196mtp0dox94608 , _:node196mtp0dox94640 , _:node196mtp0dox94609 , _:node196mtp0dox94683 , _:node196mtp0dox94684 , _:node196mtp0dox94639 , _:node196mtp0dox94610 , _:node196mtp0dox94634 , _:node196mtp0dox94685 , _:node196mtp0dox94686 , _:node196mtp0dox94687 , _:node196mtp0dox94677 , _:node196mtp0dox94676 , _:node196mtp0dox94694 , _:node196mtp0dox94695 , _:node196mtp0dox94696 , _:node196mtp0dox94697 , _:node196mtp0dox94698 , _:node196mtp0dox94699 , _:node196mtp0dox94700 , _:node196mtp0dox94701 , _:node196mtp0dox94702 , _:node196mtp0dox94703 , _:node196mtp0dox94704 , _:node196mtp0dox94705 , _:node196mtp0dox94706 , _:node196mtp0dox94707 , _:node196mtp0dox94708 , _:node196mtp0dox94709 , _:node196mtp0dox94710 , _:node196mtp0dox94711 , _:node196mtp0dox94712 , _:node196mtp0dox94713 , _:node196mtp0dox94714 , _:node196mtp0dox94715 , _:node196mtp0dox94716 , _:node196mtp0dox94717 , _:node196mtp0dox94718 , _:node196mtp0dox94719 , _:node196mtp0dox94720 , _:node196mtp0dox94721 , _:node196mtp0dox94722 , _:node196mtp0dox94690 , _:node196mtp0dox94723 , _:node196mtp0dox94730 , _:node196mtp0dox94731 , _:node196mtp0dox94732 , _:node196mtp0dox94726 , _:node196mtp0dox94737 , _:node196mtp0dox94738 , _:node196mtp0dox94739 , _:node196mtp0dox94740 , _:node196mtp0dox94741 , _:node196mtp0dox94742 , _:node196mtp0dox94743 , _:node196mtp0dox94744 , _:node196mtp0dox94745 , _:node196mtp0dox94746 , _:node196mtp0dox94747 , _:node196mtp0dox94748 , _:node196mtp0dox94749 , _:node196mtp0dox94750 , _:node196mtp0dox94733 , _:node196mtp0dox94688 , _:node196mtp0dox107075 , _:node196mtp0dox107076 , _:node196mtp0dox94691 , _:node196mtp0dox94754 , _:node196mtp0dox94755 , _:node196mtp0dox94756 , _:node196mtp0dox94757 , _:node196mtp0dox94758 , _:node196mtp0dox94759 , _:node196mtp0dox94761 , _:node196mtp0dox94762 , _:node196mtp0dox94763 , _:node196mtp0dox94764 , _:node196mtp0dox94765 , _:node196mtp0dox94766 , _:node196mtp0dox94767 , _:node196mtp0dox94768 , _:node196mtp0dox94769 , _:node196mtp0dox94770 , _:node196mtp0dox94771 , _:node196mtp0dox94772 , _:node196mtp0dox94773 , _:node196mtp0dox94774 , _:node196mtp0dox94775 , _:node196mtp0dox94776 , _:node196mtp0dox94777 , _:node196mtp0dox94760 , _:node196mtp0dox94778 , _:node196mtp0dox94779 , _:node196mtp0dox94780 , _:node196mtp0dox94751 , _:node196mtp0dox94689 , _:node196mtp0dox94734 , _:node196mtp0dox94562 , _:node196mtp0dox94619 , _:node196mtp0dox94782 , _:node196mtp0dox94727 , _:node196mtp0dox94781 , _:node196mtp0dox94616 , _:node196mtp0dox94629 , _:node196mtp0dox107110 , _:node196mtp0dox94612 , _:node196mtp0dox94621 , _:node196mtp0dox94784 , _:node196mtp0dox94783 , _:node196mtp0dox94572 , _:node196mtp0dox94786 , _:node196mtp0dox94785 , _:node196mtp0dox94601 , _:node196mtp0dox94791 , _:node196mtp0dox94792 , _:node196mtp0dox94788 , _:node196mtp0dox94787 , _:node196mtp0dox107060 , _:node196mtp0dox107115 , _:node196mtp0dox107116 , _:node196mtp0dox107061 , _:node196mtp0dox107114 , _:node196mtp0dox107113 , atxa-core:docRoot , _:node196mtp0dox94558 , _:node196mtp0dox94559 , _:node196mtp0dox94560 , _:node196mtp0dox94563 , _:node196mtp0dox94564 , _:node196mtp0dox94565 , _:node196mtp0dox94566 , _:node196mtp0dox94567 , _:node196mtp0dox94568 , _:node196mtp0dox94569 , _:node196mtp0dox94570 , _:node196mtp0dox94576 , _:node196mtp0dox94561 , _:node196mtp0dox94573 , _:node196mtp0dox94581 , _:node196mtp0dox94584 , _:node196mtp0dox94585 , _:node196mtp0dox94577 , _:node196mtp0dox94554 , _:node196mtp0dox94553 , _:node196mtp0dox94583 , _:node196mtp0dox107052 , _:node196mtp0dox107054 , _:node196mtp0dox94555 , _:node196mtp0dox107057 , _:node196mtp0dox94578 , _:node196mtp0dox94591 , _:node196mtp0dox94592 , _:node196mtp0dox107053 , _:node196mtp0dox107062 , _:node196mtp0dox107063 , _:node196mtp0dox107064 , _:node196mtp0dox107065 , _:node196mtp0dox107066 , _:node196mtp0dox107067 , _:node196mtp0dox107047 , _:node196mtp0dox107068 , _:node196mtp0dox94590 , _:node196mtp0dox94586 , _:node196mtp0dox94597 , _:node196mtp0dox94596 , _:node196mtp0dox94587 , _:node196mtp0dox94595 , _:node196mtp0dox94600 , _:node196mtp0dox94602 , _:node196mtp0dox94599 , _:node196mtp0dox94598 , _:node196mtp0dox94607 , _:node196mtp0dox94604 , _:node196mtp0dox94615 , _:node196mtp0dox94620 , _:node196mtp0dox94628 , _:node196mtp0dox94630 , _:node196mtp0dox94611 , _:node196mtp0dox94603 , _:node196mtp0dox94638 , _:node196mtp0dox94641 , _:node196mtp0dox94582 , _:node196mtp0dox94642 , _:node196mtp0dox94643 , _:node196mtp0dox94644 , _:node196mtp0dox94645 , _:node196mtp0dox94637 , _:node196mtp0dox94633 , _:node196mtp0dox94571 , _:node196mtp0dox94635 , _:node196mtp0dox94632 , _:node196mtp0dox94631 , _:node196mtp0dox107079 , _:node196mtp0dox94651 , _:node196mtp0dox107082 , _:node196mtp0dox94654 , _:node196mtp0dox107085 , _:node196mtp0dox94657 , _:node196mtp0dox107088 , _:node196mtp0dox94660 , _:node196mtp0dox107091 , _:node196mtp0dox94663 , _:node196mtp0dox94669 , _:node196mtp0dox94670 , _:node196mtp0dox94671 , _:node196mtp0dox94672 , _:node196mtp0dox94673 , _:node196mtp0dox94674 , _:node196mtp0dox94675 , _:node196mtp0dox94666 , _:node196mtp0dox94650 , _:node196mtp0dox94636 , _:node196mtp0dox107096 , _:node196mtp0dox107097 , _:node196mtp0dox94647 , _:node196mtp0dox94646 , _:node196mtp0dox94680 , _:node196mtp0dox94681 , _:node196mtp0dox94682 , _:node196mtp0dox94608 , _:node196mtp0dox94640 , _:node196mtp0dox94609 , _:node196mtp0dox94683 , _:node196mtp0dox94684 , _:node196mtp0dox94639 , _:node196mtp0dox94610 , _:node196mtp0dox94634 , _:node196mtp0dox94685 , _:node196mtp0dox94686 , _:node196mtp0dox94687 , _:node196mtp0dox94677 , _:node196mtp0dox94676 , _:node196mtp0dox94694 , _:node196mtp0dox94695 , _:node196mtp0dox94696 , _:node196mtp0dox94697 , _:node196mtp0dox94698 , _:node196mtp0dox94699 , _:node196mtp0dox94700 , _:node196mtp0dox94701 , _:node196mtp0dox94702 , _:node196mtp0dox94703 , _:node196mtp0dox94704 , _:node196mtp0dox94705 , _:node196mtp0dox94706 , _:node196mtp0dox94707 , _:node196mtp0dox94708 , _:node196mtp0dox94709 , _:node196mtp0dox94710 , _:node196mtp0dox94711 , _:node196mtp0dox94712 , _:node196mtp0dox94713 , _:node196mtp0dox94714 , _:node196mtp0dox94715 , _:node196mtp0dox94716 , _:node196mtp0dox94717 , _:node196mtp0dox94718 , _:node196mtp0dox94719 , _:node196mtp0dox94720 , _:node196mtp0dox94721 , _:node196mtp0dox94722 , _:node196mtp0dox94690 , _:node196mtp0dox94723 , _:node196mtp0dox94730 , _:node196mtp0dox94731 , _:node196mtp0dox94732 , _:node196mtp0dox94726 , _:node196mtp0dox94737 , _:node196mtp0dox94738 , _:node196mtp0dox94739 , _:node196mtp0dox94740 , _:node196mtp0dox94741 , _:node196mtp0dox94742 , _:node196mtp0dox94743 , _:node196mtp0dox94744 , _:node196mtp0dox94745 , _:node196mtp0dox94746 , _:node196mtp0dox94747 , _:node196mtp0dox94748 , _:node196mtp0dox94749 , _:node196mtp0dox94750 , _:node196mtp0dox94733 , _:node196mtp0dox94688 , _:node196mtp0dox107075 , _:node196mtp0dox107076 , _:node196mtp0dox94691 , _:node196mtp0dox94754 , _:node196mtp0dox94755 , _:node196mtp0dox94756 , _:node196mtp0dox94757 , _:node196mtp0dox94758 , _:node196mtp0dox94759 , _:node196mtp0dox94761 , _:node196mtp0dox94762 , _:node196mtp0dox94763 , _:node196mtp0dox94764 , _:node196mtp0dox94765 , _:node196mtp0dox94766 , _:node196mtp0dox94767 , _:node196mtp0dox94768 , _:node196mtp0dox94769 , _:node196mtp0dox94770 , _:node196mtp0dox94771 , _:node196mtp0dox94772 , _:node196mtp0dox94773 , _:node196mtp0dox94774 , _:node196mtp0dox94775 , _:node196mtp0dox94776 , _:node196mtp0dox94777 , _:node196mtp0dox94760 , _:node196mtp0dox94778 , _:node196mtp0dox94779 , _:node196mtp0dox94780 , _:node196mtp0dox94751 , _:node196mtp0dox94689 , _:node196mtp0dox94734 , _:node196mtp0dox94562 , _:node196mtp0dox94619 , _:node196mtp0dox94782 , _:node196mtp0dox94727 , _:node196mtp0dox94781 , _:node196mtp0dox94616 , _:node196mtp0dox94629 , _:node196mtp0dox107110 , _:node196mtp0dox94612 , _:node196mtp0dox94621 , _:node196mtp0dox94784 , _:node196mtp0dox94783 , _:node196mtp0dox94572 , _:node196mtp0dox94786 , _:node196mtp0dox94785 , _:node196mtp0dox94601 , _:node196mtp0dox94791 , _:node196mtp0dox94792 , _:node196mtp0dox94788 , _:node196mtp0dox94787 , _:node196mtp0dox107060 , _:node196mtp0dox107115 , _:node196mtp0dox107116 , _:node196mtp0dox107061 , _:node196mtp0dox107114 , _:node196mtp0dox107113 , atxa-core:docRoot , _:node196mtp0dox8 , _:node196mtp0dox27967 , _:node196mtp0dox28083 , _:node196mtp0dox36081 , _:node196mtp0dox48121 , _:node196mtp0dox93566 , _:node196mtp0dox105058 , _:node196mtp0dox61 , _:node196mtp0dox93322 , _:node196mtp0dox93403 , _:node196mtp0dox369 , _:node196mtp0dox100144 , _:node196mtp0dox100323 , _:node196mtp0dox370 , _:node196mtp0dox99657 , _:node196mtp0dox98008 , _:node196mtp0dox98180 , _:node196mtp0dox100590 , _:node196mtp0dox100857 , _:node196mtp0dox105147 , _:node196mtp0dox630 , _:node196mtp0dox52158 , _:node196mtp0dox53962 , _:node196mtp0dox57316 , _:node196mtp0dox82764 , _:node196mtp0dox29879 , _:node196mtp0dox31420 , _:node196mtp0dox89335 , _:node196mtp0dox26590 , _:node196mtp0dox634 , _:node196mtp0dox26121 , _:node196mtp0dox76013 , _:node196mtp0dox25909 , _:node196mtp0dox27322 , _:node196mtp0dox78567 , _:node196mtp0dox81813 , _:node196mtp0dox96449 , _:node196mtp0dox89419 , _:node196mtp0dox91020 , _:node196mtp0dox91101 , _:node196mtp0dox91182 , _:node196mtp0dox91263 , _:node196mtp0dox91344 , _:node196mtp0dox91428 , _:node196mtp0dox638 , _:node196mtp0dox76968 , _:node196mtp0dox10379 , _:node196mtp0dox36016 , _:node196mtp0dox106030 , _:node196mtp0dox106339 , _:node196mtp0dox106868 , _:node196mtp0dox35823 , _:node196mtp0dox1058 , _:node196mtp0dox104704 , _:node196mtp0dox1061 , _:node196mtp0dox104703 , _:node196mtp0dox1062 , _:node196mtp0dox104701 , _:node196mtp0dox1063 , _:node196mtp0dox104702 , _:node196mtp0dox33325 , _:node196mtp0dox104705 , _:node196mtp0dox32181 , _:node196mtp0dox31872 , _:node196mtp0dox35406 , _:node196mtp0dox49454 , _:node196mtp0dox87888 , _:node196mtp0dox88049 , _:node196mtp0dox88452 , _:node196mtp0dox1059 , _:node196mtp0dox104434 , _:node196mtp0dox5638 , _:node196mtp0dox88933 , _:node196mtp0dox10800 , _:node196mtp0dox47903 , _:node196mtp0dox47540 , _:node196mtp0dox47685 , _:node196mtp0dox47830 , _:node196mtp0dox48048 , _:node196mtp0dox42841 , _:node196mtp0dox18996 , _:node196mtp0dox20032 , _:node196mtp0dox43355 , _:node196mtp0dox44943 , _:node196mtp0dox89254 , _:node196mtp0dox97752 , _:node196mtp0dox54503 , _:node196mtp0dox77045 , _:node196mtp0dox77274 , _:node196mtp0dox98643 , _:node196mtp0dox99150 , _:node196mtp0dox8 , _:node196mtp0dox27967 , _:node196mtp0dox28083 , _:node196mtp0dox36081 , _:node196mtp0dox48121 , _:node196mtp0dox93566 , _:node196mtp0dox105058 , _:node196mtp0dox61 , _:node196mtp0dox93322 , _:node196mtp0dox93403 , _:node196mtp0dox369 , _:node196mtp0dox100144 , _:node196mtp0dox100323 , _:node196mtp0dox370 , _:node196mtp0dox99657 , _:node196mtp0dox98008 , _:node196mtp0dox98180 , _:node196mtp0dox100590 , _:node196mtp0dox100857 , _:node196mtp0dox105147 , _:node196mtp0dox630 , _:node196mtp0dox52158 , _:node196mtp0dox53962 , _:node196mtp0dox57316 , _:node196mtp0dox82764 , _:node196mtp0dox29879 , _:node196mtp0dox31420 , _:node196mtp0dox89335 , _:node196mtp0dox26590 , _:node196mtp0dox634 , _:node196mtp0dox26121 , _:node196mtp0dox76013 , _:node196mtp0dox25909 , _:node196mtp0dox27322 , _:node196mtp0dox78567 , _:node196mtp0dox81813 , _:node196mtp0dox96449 , _:node196mtp0dox89419 , _:node196mtp0dox91020 , _:node196mtp0dox91101 , _:node196mtp0dox91182 , _:node196mtp0dox91263 , _:node196mtp0dox91344 , _:node196mtp0dox91428 , _:node196mtp0dox638 , _:node196mtp0dox76968 , _:node196mtp0dox10379 , _:node196mtp0dox36016 , _:node196mtp0dox106030 , _:node196mtp0dox106339 , _:node196mtp0dox106868 , _:node196mtp0dox35823 , _:node196mtp0dox1058 , _:node196mtp0dox104704 , _:node196mtp0dox1061 , _:node196mtp0dox104703 , _:node196mtp0dox1062 , _:node196mtp0dox104701 , _:node196mtp0dox1063 , _:node196mtp0dox104702 , _:node196mtp0dox33325 , _:node196mtp0dox104705 , _:node196mtp0dox32181 , _:node196mtp0dox31872 , _:node196mtp0dox35406 , _:node196mtp0dox49454 , _:node196mtp0dox87888 , _:node196mtp0dox88049 , _:node196mtp0dox88452 , _:node196mtp0dox1059 , _:node196mtp0dox104434 , _:node196mtp0dox5638 , _:node196mtp0dox88933 , _:node196mtp0dox10800 , _:node196mtp0dox47903 , _:node196mtp0dox47540 , _:node196mtp0dox47685 , _:node196mtp0dox47830 , _:node196mtp0dox48048 , _:node196mtp0dox42841 , _:node196mtp0dox18996 , _:node196mtp0dox20032 , _:node196mtp0dox43355 , _:node196mtp0dox44943 , _:node196mtp0dox89254 , _:node196mtp0dox97752 , _:node196mtp0dox54503 , _:node196mtp0dox77045 , _:node196mtp0dox77274 , _:node196mtp0dox98643 , _:node196mtp0dox99150 .
+
