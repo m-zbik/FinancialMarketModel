@@ -16,6 +16,8 @@ public class FarmerImpatientPlayer extends GenericPlayer {
 	private double mu; // Poisson rate: ordered placed per step
 
 	private int sigma; // order size
+	
+	private String namyOfPlayersType = this.getClass().getSimpleName(); //mzbik added 31.03.2015 to print Limit Exception
 
 	public FarmerImpatientPlayer() {
 
@@ -34,7 +36,7 @@ public class FarmerImpatientPlayer extends GenericPlayer {
 	}
 
 	public void step(SimState state) {
-
+		
 		this.generateOrders();
 
 	}
@@ -53,7 +55,7 @@ public class FarmerImpatientPlayer extends GenericPlayer {
 				orderType = OrderType.SALE;
 			}
 
-			myWorld.myMarket.acceptMarketOrder(orderType, asset, sigma);
+			myWorld.myMarket.acceptMarketOrder(orderType, asset, sigma, namyOfPlayersType); //mzbik 31.03.2015 added namyOfPlayersType to print Liquidity exception 
 			// TODO Catch exceptions, manage wealth
 		}
 

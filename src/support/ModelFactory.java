@@ -119,7 +119,7 @@ public class ModelFactory {
 	private void createLotsOfAgents(String className, int numOfInstances) {
 		
 		try {
-			int agentCounter =0; //mzbik add 04.02.2015 for debugging purposes
+			int agentCounter = 0; //mzbik add 04.02.2015 for debugging purposes
 
 			// initialize traders and add them to the list
 			for (int i = 0; i < numOfInstances; i++) {
@@ -134,7 +134,7 @@ public class ModelFactory {
 				agentCounter++; //mzbik add 04.02.2015
 			}
 			
-			System.out.println("Number of agents: " + agentCounter); //mzbik add 04.02.2015
+			System.out.println("Number of agents: " + agentCounter + " " + className); //mzbik add 04.02.2015
 
 		} catch (InstantiationException e) {
 			// TODO Auto-generated catch block

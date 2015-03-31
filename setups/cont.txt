@@ -1,1 +1,1 @@
-ContPlayer,1500
+ContPlayer,3

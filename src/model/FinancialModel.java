@@ -13,6 +13,7 @@ import sim.util.Interval;
 import support.ModelFactory;
 import support.Reporter;
 
+//mzbik comment 25.03.2015 changing ContModel to FarmerModel
 /* Class: ContModel 
  * Spring 2008
  * FinancialMarketModel Team

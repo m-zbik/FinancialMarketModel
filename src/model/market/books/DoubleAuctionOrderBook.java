@@ -130,8 +130,9 @@ public class DoubleAuctionOrderBook implements OrderBook {
 			}
 		}
 
-		if (quantity > 0) {
-			throw new LiquidityException((int) (origQuant - quantity), totalPrice);
+		if (quantity > 0) { //mzbik added 31.03.2015 order.size() and quantity to print exception info
+			throw new LiquidityException((int) (origQuant - quantity), 
+					totalPrice, orders.size(), quantity);
 		}
 
 		return totalPrice;

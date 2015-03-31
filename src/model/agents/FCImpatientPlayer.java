@@ -25,6 +25,8 @@ public class FCImpatientPlayer extends GenericPlayer {
 	private double s; // frequency of updating threshold
 	private double threshold; // the threshold for buying or selling
 	
+	private String namyOfPlayersType = this.getClass().getSimpleName(); //mzbik added 31.03.2015 to print Limit Exception
+	
 	public FCImpatientPlayer() {
 
 	}
@@ -60,9 +62,9 @@ public class FCImpatientPlayer extends GenericPlayer {
 		double epsilon_t = myWorld.myMarket.getRandomComponentForAsset(asset);
 
 		if (epsilon_t > this.threshold) {
-			myWorld.myMarket.acceptMarketOrder(OrderType.PURCHASE, asset, sigma);
+			myWorld.myMarket.acceptMarketOrder(OrderType.PURCHASE, asset, sigma, namyOfPlayersType); //mzbik 31.03.2015 added namyOfPlayersType to print Liquidity exception);
 		} else if (epsilon_t < -this.threshold) {
-		    myWorld.myMarket.acceptMarketOrder(OrderType.SALE, asset, sigma);
+		    myWorld.myMarket.acceptMarketOrder(OrderType.SALE, asset, sigma, namyOfPlayersType); //mzbik 31.03.2015 added namyOfPlayersType to print Liquidity exception);
 		}
 	    // TODO Catch exceptions, manage wealth
 

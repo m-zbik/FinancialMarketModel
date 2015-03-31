@@ -14,7 +14,7 @@ public class RunsWrapper {
 		hhw.wrapperActive = true; //mzbik comment this lets us omit the myReporter.finishAll() in
 									//FinancialModel and execute it here below line34
 
-		for (int t = 0; t < 50; t++) {//mzbik mod t < 500 04.02.2015
+		for (int t = 0; t < 10; t++) {//mzbik mod t < 500 04.02.2015
 
 			System.out.println("Run " + t);
 			hhw.parameterMap.put("Cont_D", new Double(0.1*hhw.random.nextDouble()));

@@ -3,6 +3,7 @@ package model.market;
 import java.util.ArrayList;
 
 import model.FinancialModel;
+import model.agents.FarmerImpatientPlayer;
 import model.market.books.LimitOrder;
 import model.market.books.LiquidityException;
 import model.market.books.OrderBook;
@@ -70,12 +71,19 @@ public class Market implements Steppable {
 		return orderBooks.get(i).getBidPrice();
 	}
 	
-	public void acceptMarketOrder(OrderType newType, int asset, int amount) {
+	public void acceptMarketOrder(OrderType newType, int asset, int amount, String nameOfPlayersType) { //mzbik added 31.03.2015 String nameOfPlayersType to print exception
 		try {
 			this.orderBooks.get(asset).executeMarketOrder(newType, amount);
 		} catch (LiquidityException e) {
 			// TODO: this should be left for the caller to catch
-			 e.printStackTrace();
+			// e.printStackTrace(); //mzbik changed 31.03.2015
+
+			System.out.println("+---There is a Liquidity problem no. " + LiquidityException.liquidityExeptionCounter ); //mzbik added 31.03.2015
+			System.out.println("quantity = " + e.quantityImpatientPlayerExecuteMarketOrder + 
+					"; orders = " + e.ordersImpatientPlayerOperatesOn); //mzbik added 31.03.2015
+			System.out.println("Type of the player: " + nameOfPlayersType); //mzbik added 31.03.2015
+			System.out.println("+---"); //mzbik added 31.03.2015
+			LiquidityException.liquidityExeptionCounter ++; //mzbik added 31.03.2015
 		}
 		
 	}
