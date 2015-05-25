@@ -1,2 +1,2 @@
-FarmerImpatientPlayer,3
-FarmerPatientPlayer,3
+FarmerImpatientPlayer,150
+FarmerPatientPlayer,150
