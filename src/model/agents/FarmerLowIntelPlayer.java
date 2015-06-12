@@ -46,13 +46,13 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 	private String nameOfPlayersType = this.getClass().getSimpleName(); //mzbik added 31.03.2015 to print Limit Exception
 	
 //	set parameters for NN like:
-	public final static int TRAINING_SIZE = 16 /*500*/ /*1800*/;
-	public final static int INPUT_SIZE = 4 /*10*/;
+	public final static int TRAINING_SIZE = /*16*/ 500 /*1800*/;
+	public final static int INPUT_SIZE = /*4 */10;
 	public final static int OUTPUT_SIZE = 1;
-	public final static int NEURONS_HIDDEN_1 = 8 /*20*/;
-	public final static int NEURONS_HIDDEN_2 = 0 /*20*/;
+	public final static int NEURONS_HIDDEN_1 = /*8*/ 20;
+	public final static int NEURONS_HIDDEN_2 =/* 0 */20;
 	public final static double MAX_ERROR = 0.02;
-	public final static double /*Date*/ PREDICT_FROM = 17 /*501*//*1080*/;
+	public final static double /*Date*/ PREDICT_FROM = /*17*/ 501/*1080*/;
 	public final static double /*Date*/ LEARN_FROM = 0;
 	private double[] predict = new double[OUTPUT_SIZE];
 	public static int[] stageNNdevolpment = {0, 1, 2, 3};

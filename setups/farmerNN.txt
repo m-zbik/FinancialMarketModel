@@ -1,0 +1,2 @@
+FarmerLowIntelPlayer,150
+FarmerPatientPlayer,150
