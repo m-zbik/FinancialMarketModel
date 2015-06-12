@@ -79,13 +79,12 @@ public class Market implements Steppable {
 			// e.printStackTrace(); //mzbik changed 31.03.2015
 
 			System.out.println("+---There is a Liquidity problem no. " + LiquidityException.liquidityExeptionCounter ); //mzbik added 31.03.2015
-			System.out.println("quantity = " + e.quantityImpatientPlayerExecuteMarketOrder + 
-					"; orders = " + e.ordersImpatientPlayerOperatesOn); //mzbik added 31.03.2015
+			System.out.println("quantity = " + e.quantityPlayerExecuteMarketOrder + 
+					"; orders = " + e.ordersPlayerOperatesOn); //mzbik added 31.03.2015
 			System.out.println("Type of the player: " + nameOfPlayersType); //mzbik added 31.03.2015
 			System.out.println("+---"); //mzbik added 31.03.2015
 			LiquidityException.liquidityExeptionCounter ++; //mzbik added 31.03.2015
 		}
-		
 	}
 
 	public double getRandomComponentForAsset(int i) {

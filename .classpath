@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="encog"/>
 	<classpathentry kind="lib" path="jar mason18ModifiedByMzbik/mason18ModifiedByMzbik.jar"/>
 	<classpathentry kind="lib" path="lib/bsh-2.0b4.jar"/>
 	<classpathentry kind="lib" path="lib/gluegen-rt-natives-windows-amd64.jar"/>
@@ -22,5 +23,7 @@
 	<classpathentry kind="lib" path="C:/Program Files (x86)/JMF2.1.1e/lib/mediaplayer.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/JMF2.1.1e/lib/multiplayer.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/JMF2.1.1e/lib/sound.jar"/>
+	<classpathentry kind="src" path="unittest"/>
+	<classpathentry kind="lib" path="C:/MICHAL_DOK/GIT/NNmodelInFM/Encog/junit-4.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

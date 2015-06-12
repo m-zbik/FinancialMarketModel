@@ -78,8 +78,8 @@ public class LimitOrder implements Comparable {
 		}
 		else 
 		{
-			if (this.pricePerUnit > that.pricePerUnit) {
 				retval=1;
+				if (this.pricePerUnit > that.pricePerUnit) {
 			} else { // (this.pricePerUnit < that.pricePerUnit)
 				retval=-1;
 			}
