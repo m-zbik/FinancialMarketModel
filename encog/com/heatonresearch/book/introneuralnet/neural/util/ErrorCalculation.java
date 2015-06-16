@@ -24,6 +24,7 @@ package com.heatonresearch.book.introneuralnet.neural.util;
 public class ErrorCalculation {
 	private double globalError;
 	private int setSize;
+	public static double errorNN; //mzbik
 
 	/**
 	 * Returns the root mean square error for a complete training set.
@@ -34,8 +35,10 @@ public class ErrorCalculation {
 	 */
 	public double calculateRMS() {
 		final double err = Math.sqrt(this.globalError / (this.setSize));
+		errorNN = err;
+		System.out.println("Error = " + err);
 		return err;
-
+		
 	}
 
 	/**

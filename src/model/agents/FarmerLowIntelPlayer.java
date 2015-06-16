@@ -46,13 +46,13 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 	private String nameOfPlayersType = this.getClass().getSimpleName(); //mzbik added 31.03.2015 to print Limit Exception
 	
 //	set parameters for NN like:
-	public final static int TRAINING_SIZE = /*16*/ 500 /*1800*/;
-	public final static int INPUT_SIZE = /*4 */10;
+	public final static int TRAINING_SIZE = /*6*/ 500 /*1800*/;
+	public final static int INPUT_SIZE = /*2*/ 10;
 	public final static int OUTPUT_SIZE = 1;
-	public final static int NEURONS_HIDDEN_1 = /*8*/ 20;
-	public final static int NEURONS_HIDDEN_2 =/* 0 */20;
+	public final static int NEURONS_HIDDEN_1 = /*3*/ 20;
+	public final static int NEURONS_HIDDEN_2 = /*0*/ 20;
 	public final static double MAX_ERROR = 0.02;
-	public final static double /*Date*/ PREDICT_FROM = /*17*/ 501/*1080*/;
+	public final static double /*Date*/ PREDICT_FROM = /*7*/ 501/*1080*/;
 	public final static double /*Date*/ LEARN_FROM = 0;
 	private double[] predict = new double[OUTPUT_SIZE];
 	public static int[] stageNNdevolpment = {0, 1, 2, 3};
@@ -93,7 +93,7 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 		} else {
 			predict.run(stageNNdevolpment[3]);
 		}
-	}
+		}
 
 	private void generateOrders() {
 		
@@ -157,7 +157,7 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 		
 		int index = 0;
 		for (final FinancialSample sample : this.actual.getSamples()) {
-			if (stage == 1 & sample.getTimeTimeSeries()/*.after*/ > (FarmerLowIntelPlayer.PREDICT_FROM)) {
+			if (stage == 3 & sample.getTimeTimeSeries()/*.after*/ >= (FarmerLowIntelPlayer.PREDICT_FROM)) {
 				final StringBuilder str = new StringBuilder();
 				str.append(/*ReadCSV.displayDate(*/sample.getTimeTimeSeries());
 				str.append(":Start=");
@@ -175,8 +175,8 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 				str.append(":Difference=");
 
 				final ErrorCalculation error = new ErrorCalculation();
-				str.append(percentFormat.format(error.calculateRMS()));
 				error.updateError(predict, actualOutput);
+				str.append(percentFormat.format(error.calculateRMS()));
 
 				predictedValue = predict[0];
 				System.out.println(str.toString());
@@ -188,7 +188,7 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 				str.append(sample.getReturnTimeSeries());
 
 				this.actual.getInputData(index - INPUT_SIZE, present);
-				this.actual.getOutputData(index - INPUT_SIZE, actualOutput);
+ 				this.actual.getOutputData(index - INPUT_SIZE, actualOutput);
 
 				predict = this.network.computeOutputs(present);
 //				str.append(",Actual % Change=");
@@ -199,11 +199,15 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 //				str.append(":Difference=");
 //
 //				final ErrorCalculation error = new ErrorCalculation();
-//				str.append(percentFormat.format(error.calculateRMS()));
 //				error.updateError(predict, actualOutput);
+//				str.append(percentFormat.format(error.calculateRMS()));
 				
 				predictedValue = predict[0];
 //				System.out.println(str.toString());
+			} else if (stage == 3 & sample.getTimeTimeSeries() > FarmerLowIntelPlayer.TRAINING_SIZE & 
+					sample.getTimeTimeSeries() < FarmerLowIntelPlayer.PREDICT_FROM){
+				final FarmerLowIntelPlayer predictBetweenStages = new FarmerLowIntelPlayer();
+				predictBetweenStages.run(stageNNdevolpment[1]);
 			}
 
 			index++;

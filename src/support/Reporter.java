@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
+import com.heatonresearch.book.introneuralnet.neural.util.ErrorCalculation;
 import com.sun.xml.internal.fastinfoset.util.ValueArrayResourceException;
 
 import model.FinancialModel;
@@ -45,9 +46,9 @@ public class Reporter implements Steppable {
 			temp = temp + "closeBidPrice" + "	";
 			temp = temp + "averageTradePrice" + "	";
 			temp = temp + "volume" + "	";
-			temp = temp + "return" /*+ "	"*/;
-			/*temp = temp + "predictedReturn" + "	";
-			temp = temp + "predictionError";*/
+			temp = temp + "return" + "	";
+//			temp = temp + "predictedReturn" + "	";
+			temp = temp + "predictionError";
 			
 
 			outPrices.write(temp);
@@ -80,8 +81,8 @@ public class Reporter implements Steppable {
 				temp = temp + myModel.myMarket.getAverageTradePriceForAsset(asset) + "	";
 				temp = temp + myModel.myMarket.getVolumeForAsset(asset) + "	";
 				temp = temp + myModel.myMarket.getReturnRateForAsset(asset);
-				/*temp = temp + myModel.myMarket.getAveragePredictionRate(asset);
-				temp = temp + "myModel.myMarket.getAveragePredictionError(asset);*/
+//				temp = temp + myModel.myMarket.getAveragePredictionRate(asset);
+				temp = temp + ErrorCalculation.errorNN;
 				
 				//only for numAssets = 1
 				if (myModel.parameterMap.get("numAssets") > 1){
