@@ -80,7 +80,7 @@ public class Reporter implements Steppable {
 				temp = temp + myModel.myMarket.getBidPriceForAsset(asset)+ "	";
 				temp = temp + myModel.myMarket.getAverageTradePriceForAsset(asset) + "	";
 				temp = temp + myModel.myMarket.getVolumeForAsset(asset) + "	";
-				temp = temp + myModel.myMarket.getReturnRateForAsset(asset);
+				temp = temp + myModel.myMarket.getReturnRateForAsset(asset) + "	";
 //				temp = temp + myModel.myMarket.getAveragePredictionRate(asset);
 				temp = temp + ErrorCalculation.errorNN;
 				
