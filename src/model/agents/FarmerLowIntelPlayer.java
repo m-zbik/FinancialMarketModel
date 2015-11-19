@@ -46,13 +46,13 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 	private String nameOfPlayersType = this.getClass().getSimpleName(); //mzbik added 31.03.2015 to print Limit Exception
 	
 //	set parameters for NN like:
-	public final static int TRAINING_SIZE = /*6*/ 500 /*1800*/;
-	public final static int INPUT_SIZE = /*2*/ 10;
+	public final static int TRAINING_SIZE = /*6*/ 100 /*500*/ /*1800*/;
+	public final static int INPUT_SIZE = /*2*/ 5 /*10*/;
 	public final static int OUTPUT_SIZE = 1;
-	public final static int NEURONS_HIDDEN_1 = /*3*/ 20;
-	public final static int NEURONS_HIDDEN_2 = /*0*/ 20;
+	public final static int NEURONS_HIDDEN_1 = /*3*/ 10 /*20*/;
+	public final static int NEURONS_HIDDEN_2 = /*0*/ 10 /*20*/;
 	public final static double MAX_ERROR = 0.02;
-	public final static double /*Date*/ PREDICT_FROM = /*7*/ 501/*1080*/;
+	public final static double /*Date*/ PREDICT_FROM = /*7*/ 101 /*501*/ /*1080*/;
 	public final static double /*Date*/ LEARN_FROM = 0;
 	private double[] predict = new double[OUTPUT_SIZE];
 	public static int[] stageNNdevolpment = {0, 1, 2, 3};
@@ -100,7 +100,7 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 		int amountLocalSigma = 0;
 		int assetLocalAsset = 0;
 		int ordersPlaced = randDist.nextPoisson(mu);
-		System.out.println("ordersPlaced = " + ordersPlaced);
+//		System.out.println("ordersPlaced = " + ordersPlaced);
 		
 		// place 'ordersPlaced' orders this iteration, each of size sigma
 		for (int i = 0; i < ordersPlaced; i++) {
@@ -114,11 +114,11 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 			
 			if (predictedValue > 0 && orderType == OrderType.PURCHASE || 
 					predictedValue < 0 && orderType == OrderType.SALE){
-				System.out.println("I take part in the market mechanism");
+//				System.out.println("I take part in the market mechanism");
 				myWorld.myMarket.acceptMarketOrder(orderType, asset, sigma, nameOfPlayersType); //mzbik 31.03.2015 added namyOfPlayersType to print Liquidity exception 
 			} else {
 				// acceptMarket Order with Zero Asset and Zero Amount = do nothing;
-				System.out.println("I DO NOT take part in the market mechanism");
+//				System.out.println("I DO NOT take part in the market mechanism");
 				myWorld.myMarket.acceptMarketOrder(orderType, assetLocalAsset, amountLocalSigma, nameOfPlayersType);
 			}
 		}
@@ -160,31 +160,31 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 			if (stage == 3 & sample.getTimeTimeSeries()/*.after*/ >= (FarmerLowIntelPlayer.PREDICT_FROM)) {
 				final StringBuilder str = new StringBuilder();
 				str.append(/*ReadCSV.displayDate(*/sample.getTimeTimeSeries());
-				str.append(":Start=");
+//				str.append(":Start=");
 				str.append(sample.getReturnTimeSeries());
 
 				this.actual.getInputData(index - INPUT_SIZE, present);
 				this.actual.getOutputData(index - INPUT_SIZE, actualOutput);
 
 				predict = this.network.computeOutputs(present);
-				str.append(",Actual % Change=");
-				str.append(percentFormat.format(actualOutput[0]));
-				str.append(",Predicted % Change= ");
-				str.append(percentFormat.format(predict[0]));
+//				str.append(",Actual % Change=");
+//				str.append(percentFormat.format(actualOutput[0]));
+//				str.append(",Predicted % Change= ");
+//				str.append(percentFormat.format(predict[0]));
 
-				str.append(":Difference=");
+//				str.append(":Difference=");
 
 				final ErrorCalculation error = new ErrorCalculation();
 				error.updateError(predict, actualOutput);
-				str.append(percentFormat.format(error.calculateRMS()));
+				str.append(percentFormat.format(error.calculateRMS())); //mzbik 21.07.2015 check out calculateRMS - println has been commented
 
 				predictedValue = predict[0];
-				System.out.println(str.toString());
+//				System.out.println(str.toString());
 				
 			} else if (stage == 1 & sample.getTimeTimeSeries()/*.after*/ > /*0*/ INPUT_SIZE - 1 /*+ OUTPUT_SIZE*/){
 				final StringBuilder str = new StringBuilder();
 				str.append(/*ReadCSV.displayDate(*/sample.getTimeTimeSeries());
-				str.append(":Start=");
+//				str.append(":Start=");
 				str.append(sample.getReturnTimeSeries());
 
 				this.actual.getInputData(index - INPUT_SIZE, present);
@@ -198,9 +198,9 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 //
 //				str.append(":Difference=");
 //
-//				final ErrorCalculation error = new ErrorCalculation();
-//				error.updateError(predict, actualOutput);
-//				str.append(percentFormat.format(error.calculateRMS()));
+				final ErrorCalculation error = new ErrorCalculation();
+				error.updateError(predict, actualOutput);
+				str.append(percentFormat.format(error.calculateRMS()));
 				
 				predictedValue = predict[0];
 //				System.out.println(str.toString());
@@ -254,7 +254,11 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 	}
 
 	public void loadNeuralNetwork() throws IOException, ClassNotFoundException {
-		this.network = (FeedforwardNetwork) SerializeObject.load("timeSeries/FarmerLowIntelPlayerNN.net");
+		String pathToTimeSeriesNeuralNetwork = "timeSeries/FarmerLowIntelPlayerNN_"; //mzbik 17.08.2015
+		String neuralNetworkFileExtension = ".net"; //mzbik 17.08.2015
+		this.network = (FeedforwardNetwork) SerializeObject.load(
+				/*"timeSeries/FarmerLowIntelPlayerNN.net");*/
+				pathToTimeSeriesNeuralNetwork + Integer.toString(RunsWrapper.numberOfSimulations) + neuralNetworkFileExtension); //mzbik 17.08.2015
 	}
 
 	public void run(int stage) {
@@ -263,7 +267,7 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 //			this.actual.loadTimeSeries("timeSeries/timeSeries.txt");
 			actual.setSamples(); 
 			
-			System.out.println("Samples read: " + this.actual.size());
+//			System.out.println("Samples read: " + this.actual.size());
 			
 			FarmerLowIntelPlayer.stage = stage;
 			
@@ -287,7 +291,11 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 	}
 	
 	public void saveNeuralNetwork() throws IOException {
-		SerializeObject.save("timeSeries/FarmerLowIntelPlayerNN.net", this.network);
+		String pathToTimeSeriesNeuralNetwork = "timeSeries/FarmerLowIntelPlayerNN_"; //mzbik 17.08.2015
+		String neuralNetworkFileExtension = ".net"; //mzbik 17.08.2015
+//		SerializeObject.save("timeSererNN.net", this.network);
+		SerializeObject.save(pathToTimeSeriesNeuralNetwork + Integer.toString(RunsWrapper.numberOfSimulations) +
+				neuralNetworkFileExtension , this.network); //mzbik 17.08.2015
 	}
 
 	private void trainNetworkBackprop() {
@@ -301,8 +309,8 @@ public class FarmerLowIntelPlayer extends GenericPlayer {
 			train.iteration();
 			double error = train.getError();
 			
-			System.out.println("Iteration(Backprop) #" + epoch + " Error:"
-					+ error);
+//			System.out.println("Iteration(Backprop) #" + epoch + " Error:"
+//					+ error);
 			
 			if( error>0.05 ){
 				if( (lastAnneal>100) && (error>lastError || Math.abs(error-lastError)<0.0001) ){

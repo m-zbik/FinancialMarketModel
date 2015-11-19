@@ -1,3 +1,3 @@
-FarmerImpatientPlayer,150
-FarmerLowIntelPlayer,150
-FarmerPatientPlayer,150
+FarmerImpatientPlayer,100
+FarmerLowIntelPlayer,100
+FarmerPatientPlayer,100

@@ -5,6 +5,7 @@ import model.FinancialModel;
 public class RunsWrapper {
 
 	public static int movesCounter = 0; //mzbik added movesCounter 04.02.2015 for debugging purposes
+	public static int numberOfSimulations = 0; //mzbik added 17.08.2015 for simulation purposes - check loadNeuralNetowork()
 	
 	/**
 	 * @param args
@@ -16,7 +17,7 @@ public class RunsWrapper {
 		hhw.wrapperActive = true; //mzbik comment this lets us omit the myReporter.finishAll() in
 									//FinancialModel and execute it here below line34
 		
-		for (int t = 0; t < 1; t++) {//mzbik mod t < 500 04.02.2015
+		for (int t = 0; t < 50; t++) {//mzbik mod t < 500 04.02.2015
 
 			System.out.println("Run " + t);
 			hhw.parameterMap.put("Cont_D", new Double(0.1*hhw.random.nextDouble()));
@@ -30,6 +31,7 @@ public class RunsWrapper {
 //			-	reset movesCounter
 
 			movesCounter = 0; // mzbik reset movesCounter before creating new world
+			numberOfSimulations = t + 1;
 			
 			while ((hhw.schedule.step(hhw))) {
 				movesCounter++;// mzbik added 04.02.2015

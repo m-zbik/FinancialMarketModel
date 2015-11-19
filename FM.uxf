@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>20</y>
+      <w>180</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>ModelFactory
+--
+-target: FinancialModel
+-fileName: String
+-returnSim: boolean
+--
+/+buildAgents()/
+/+createLotsOfAgents/
+/+createLotsOfAgent/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>290</y>
+      <w>280</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>FinanciaModel
+--
+-myReporter: Reporter
+-myCreator: ModelFactory
+-parameterMap: HashMap&lt;String, Double&gt;
+-optionsMap: HashMap&lt;String, String&gt;
+-agentList: ArrayList&lt;GenericPlayer&gt;
+-myMarket: Market
+--
+/+star()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>20</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>SimState</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>40</y>
+      <w>30</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>10</x>
+      <y>140</y>
+      <w>150</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+tworzy  i ustawia 
+parametry symulacji</panel_attributes>
+    <additional_attributes>70.0;150.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>550</y>
+      <w>280</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>GenericPlayer
+--
+-id: int
+-myWorld: FinancialModel
+--
+/+setup()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>280</x>
+      <y>10</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Steppable
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>50</x>
+      <y>430</y>
+      <w>50</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>680</y>
+      <w>220</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>FarmerPatientPlayer
+--
+-alpha: double
+-delta: double
+-sigma: int
+-granularity: double
+-myOrders: ArrayList&lt;LimitOrder&gt;
+--
+/+setup()/
+/+step()/
+/+generateOrders()/
+/+cancelOldOrders()/
+/+manageOrderExecution()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>890</y>
+      <w>240</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>FarmerImpatientPlayer
+--
+-mu: double
+-sigma: int
+-namyOfPlayersType: String
+--
+/+setup()/
+/+step()/
+/+generateOrders()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>550</y>
+      <w>210</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>FarmerLowIntelPlayer
+--
+-mu: double
+-sigma: int
+-nameOfPlayersType: String
+-TRAINING_SIZE: int
+-INPUT_SIZE: int
+-OUTPUT_SIZE: int
+-NEURONS_HIDDEN_1: int
+-NEURONS_HIDDEN_2: int
+-MAX_ERROR: double
+-PREDICT_FROM: double
+-LEARN_FROM: double
+-predict: double[]
+-stageNNdevolpment: int[]
+-stage: int
+-predictedValue: double
+--
+/+setup()/
+/+step()/
+/+predictReturn()/
+/+generateOrders()/
+/+createNetwork()/
+/+display()/
+/+generateTrainingSets()/
+/+loadNeuralNetwork()/
+/+run()/
+/+saveNeuralNetwork()/
+/+trainNetworkAnneal()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>580</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>630</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>630</y>
+      <w>30</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>550</y>
+      <w>220</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>ActualTimeSeries
+--
+-samples: Set&lt;FinancialSample&gt;
+-inputSize: int
+-outputSize: int
+--
+/+ActualTimeSeries()/
+/+calculatePercents()/
+/+getInputData()/
+/+getOutputData()/
+/+getPrimeRate()/
+/+getSamples()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>750</y>
+      <w>220</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>FinancialSample
+--
+-returnTimeSeries: double
+-rate: double
+-timeTimeSeries: double
+-volumeTimeSeries: double
+-percent: double
+--
+/+compareTo()/
+/+getReturnTimeSeries()/
+/+getTimeTimeSeries()/
+/+getPercent()/
+/+getRate()/
+/+getVolumeTimeSeries()/
+/+setReturnTimeSeries()/
+/+setTimeTimeSeries()/
+/+setPercent()/
+/+setRate()/
+/+setVolumeTimeSeries()/
+/+toString()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>540</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>560</y>
+      <w>60</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;10.0;30.0;200.0;40.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>290</y>
+      <w>270</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Market
+--
+-orderBooks: ArrayList&lt;OrderBook&gt;
+--
+/+step()/
+/+getReturnRateForAsset()/
+/+getOrderBookForAsset()/
+/+getAskPriceForAsset()/
+/+acceptOrder()/
+/+cancelOrder()/
+/+getBidPriceForAsset()/
+/+acceptMarketOrder()/
+/+getRandomComponentForAsset()/
+/+getAverageTradePriceForAsset()/
+/+getVolumeForAsset()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>30</y>
+      <w>200</w>
+      <h>540</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;10.0;180.0;430.0;10.0;430.0;10.0;520.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>20</y>
+      <w>150</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0;130.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>290</y>
+      <w>200</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>20</y>
+      <w>260</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Reporter
+--
+-outPrices: BufferedWriter
+-outParameters: BufferedWriter
+-myModel: FinancialModel
+-timeForAssetNN: List &lt;Double&gt;
+-returnRateForAssetNN: List &lt;Double&gt;
+-volumeForAssetNN: List &lt;Double&gt;
+-samplesForNN: Set&lt;FinancialSample&gt;
+--
+/+step()/
+-outPrices.write()
+-outPrices.newLine()
+/+finishAll()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>220</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+zapis wyników</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>790</x>
+      <y>430</y>
+      <w>240</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>DoubleAuctionOrderBook
+--
+-myWorld: FinancialModel
+-buyOrders: SortedSet&lt;LimitOrder&gt;
+-sellOrders: SortedSet&lt;LimitOrder&gt;
+-myID: int
+-returnRate_t: double
+-price_t: double
+-volumeTraded: double
+-valueTraded: double
+-oldVolumeTraded: double
+-oldValueTraded: double
+-epsilon_t: double
+--
+/+DoubleAuctionOrderBook()/
+/+placeLimitOrder()/
+/+cancelLimitOrder()/
+/+executeMarketOrder()/
+/+getBidPrice()/
+/+getAskPrice()/
+/+getSpread()/
+/+cleanup()/
+/+getBuyOrders()/
+/+getSellOrders()/
+/+setMyWorld()/
+/+getReturnRate()/
+/+getTickPrice()/
+/+setMyID()/
+/+getRandomComponent()/
+/+getVolume()/
+/+getAverageTradePrice()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>10</y>
+      <w>210</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1</panel_attributes>
+    <additional_attributes>190.0;10.0;50.0;10.0;50.0;290.0;10.0;290.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>10</y>
+      <w>140</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0;120.0;420.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>300</y>
+      <w>300</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+generowanie zamówień</panel_attributes>
+    <additional_attributes>280.0;10.0;210.0;200.0;10.0;200.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>800</x>
+      <y>0</y>
+      <w>220</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>OrderBook
+--
+OrderType PURCHASE, SALE
+/+executeMarketOrder()/
+/+placeLimitOrder()/
+/+cancelLimitOrder()/
+/+cleanup()/
+/+getBuyOrders()/
+/+getSellOrders()/
+/+getAskPrice()/
+/+getBidPrice()/
+/+getSpread()/
+/+getReturnRate()/
+/+setMyWorld()/
+/+setMyID()/
+/+getRandomComponent()/
+/+getVolume()/
+/+getAverageTradePrice()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

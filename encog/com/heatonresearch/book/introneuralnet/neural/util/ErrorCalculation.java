@@ -36,7 +36,7 @@ public class ErrorCalculation {
 	public double calculateRMS() {
 		final double err = Math.sqrt(this.globalError / (this.setSize));
 		errorNN = err;
-		System.out.println("Error = " + err);
+//		System.out.println("Error = " + err);
 		return err;
 		
 	}

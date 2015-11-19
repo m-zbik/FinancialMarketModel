@@ -1,2 +1,2 @@
-FarmerLowIntelPlayer,150
-FarmerPatientPlayer,150
+FarmerLowIntelPlayer,100
+FarmerPatientPlayer,100
